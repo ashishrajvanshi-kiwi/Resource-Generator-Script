@@ -73,9 +73,6 @@ for language_tab, language in enumerate(available_language):
 						line = line.replace('&lt;','<')
 						line = line.replace('&gt;','>')
 						fout.write(line)
-#						fout.write(line.replace(rfrom,rto))
-#						fout.write(line.replace('&lt;','<'))
-#						fout.write(line.replace('&rt;','>'))
 						print "replacing " , rfrom , " with " , rto
 
 						replaced = True
