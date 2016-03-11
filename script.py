@@ -2,7 +2,6 @@
 
 #print "This line will be printed."
 
-import xml.etree.ElementTree as ET
 import csv
 import cgi
 import os, sys
