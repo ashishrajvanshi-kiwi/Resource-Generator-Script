@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">1</string>
+    <string name="app_header">2</string>
+    <string name="hello_world">3</string>
+    <string name="action_settings">4</string>
+    <string name="title_activity_registration">5</string>
+    <string name="account_type">6</string>
+    <string name="msg_noresult">7</string>
+    <string name="action_update">8</string>
+
+
+    <!-- ***** App dialogs and toast's resources ***** -->
+    <string name="network_unavailable">9</string>
+    <string name="fb_authenticating">10</string>
+
+    <!-- ***** Registration resources ***** -->
+    <string name="register_progress_label">11</string>
+    <string name="continue_label">12</string>
+    <string name="authenticate_label">13</string>
+    <string name="terms_conditions_label">14</string>
+    <string name="validate_phone_label">15</string>
+    <string name="validate_phone_sublabel">16</string>
+    <string name="phone_number_label">17</string>
+    <string name="verification_sms_text">18</string>
+
+    <!-- ***** Registration resources ***** -->
+    <string name="contacts_label">19</string>
+    <string name="groups_label">20</string>
+    <string name="title_activity_contacts">21</string>
+    <string name="contacts_tab_label">22</string>
+    <string name="groups_tab_label">23</string>
+    <string name="contact_refresh">24</string>
+    <string name="add_contact_label">25</string>
+    <string name="add_group_label">26</string>
+    <string name="create_group_label">27</string>
+    <string name="edit_group_label">28</string>
+    <!-- ***** Import Facebook resources ***** -->
+    <string name="continue_facebook">29</string>
+    <string name="no_thanks_continue_label">30</string>
+    <string name="import_facebook_label">31</string>
+    <string name="incorporate_contacts_label">32</string>
+    <string name="publish_tour_label">33</string>
+    <string name="seeyoual_facebook_permission">34</string>
+
+    <!-- ***** Home Activity resources ***** -->
+    <string name="action_search">35</string>
+    <string name="action_new_event">36</string>
+    <string name="action_profile">37</string>
+    <string name="action_contacts">38</string>
+    <string name="events_label">39</string>
+    <string name="contact_progress">40</string>
+
+    <!-- ***** Introduction Activity resources ***** -->
+    <string name="continue_btn_label">41</string>
+    <string name="intro_1_label">42</string>
+    <string name="manage_label">43</string>
+    <string name="intro_2_label">44</string>
+    <string name="intro_2_label_header">45</string>
+    <string name="intro_3_label">46</string>
+    <string name="intro_3_label_header">47</string>
+    <!-- ***** Profile Activity resources ***** -->
+    <string name="name_label">48</string>
+    <string name="status_label">49</string>
+    <string name="email_label">50</string>
+    <string name="date_of_birth_label">51</string>
+    <string name="gender_label">52</string>
+    <string name="male_label">53</string>
+    <string name="female_label">54</string>
+    <string name="import_fb__label">55</string>
+    <string name="add_profile_pic_label">56</string>
+    <string name="save_btn_label">57</string>
+    <string name="select_picture_label">58</string>
+    <string name="validate_birth_date_error">59</string>
+    <string name="validate_email_error">60</string>
+    <string name="profile_updated_msg">61</string>
+    <string name="location_label">62</string>
+
+    <!-- ***** AddContact Activity resources ***** -->
+    <string name="create_contact_label">63</string>
+    <string name="first_name_label">64</string>
+    <string name="last_name_label">65</string>
+    <string name="phone_number_contact_label">66</string>
+
+    <!-- ***** Verification Activity resources ***** -->
+    <string name="verification_code_label">67</string>
+    <string name="enter_code_label">68</string>
+    <string name="submit_label">69</string>
+    <string name="reset">70</string>
+
+
+    <!-- ***** Seeting Activity resources ***** -->
+    <string name="setting_help">71</string>
+    <string name="setting_profile">72</string>
+    <string name="setting_account">73</string>
+    <string name="setting_contact">74</string>
+    <string name="setting_event">75</string>
+    <string name="setting_notification">76</string>
+    <string name="setting_default">77</string>
+    <string name="account_privacy">78</string>
+    <string name="account_change_number">79</string>
+    <string name="account_network">80</string>
+    <string name="account_payment">81</string>
+    <string name="account_delete">82</string>
+    <string name="event_setting_enter_key">83</string>
+    <string name="event_setting_enter_key_status">84</string>
+    <string name="event_setting_enter_key_add">85</string>
+    <string name="event_setting_media">86</string>
+    <string name="event_setting_chat">87</string>
+    <string name="event_font_size">88</string>
+    <string name="event_font_size_for">89</string>
+    <string name="event_wallpaper">90</string>
+    <string name="contact_setting_tellfriend">91</string>
+    <string name="contact_setting_payfriend">92</string>
+    <string name="contact_setting_showall">93</string>
+    <string name="contact_setting_enable">94</string>
+    <string name="media_setting_when">95</string>
+    <string name="media_setting_no">96</string>
+    <string name="media_setting_wifi">97</string>
+    <string name="media_setting_all">98</string>
+    <string name="media_setting_roaming">99</string>
+
+    <string name="messages_sent">100</string>
+    <string name="messages_received">101</string>
+    <string name="media_bytes_sent">102</string>
+    <string name="media_bytes_received">103</string>
+    <string name="message_bytes_sent">104</string>
+    <string name="message_bytes_received">105</string>
+    <string name="total_bytes_sent">106</string>
+    <string name="total_bytes_received">107</string>
+    <string name="reset_usage">108</string>
+    <string name="messages">109</string>
+    <string name="message">110</string>
+
+
+    <string name="noti_setting_alert">111</string>
+    <string name="noti_setting_tone">112</string>
+    <string name="upcoming_event_notification">113</string>
+    <string name="noti_setting_select">114</string>
+    <string name="upcoming_event_notification_text">115</string>
+    <!-- ***** help  Activity resources ***** -->
+    <string name="help_about">116</string>
+    <string name="help_faq">117</string>
+    <string name="help_system_status">118</string>
+    <string name="help_report">119</string>
+    <!-- ***** About  Activity resources ***** -->
+    <string name="about_copyright">120</string>
+    <string name="about_appname">121</string>
+
+
+    <string name="number">122</string>
+    <string name="name">123</string>
+    <string name="invitee_block_msg">124</string>
+    <string name="wrong_number">125</string>
+    <string name="wrong_number_edit">126</string>
+    <string name="add">127</string>
+    <string name="contactoptions">128</string>
+    <string name="err_entername">129</string>
+    <string name="err_entername_group">130</string>
+    <string name="err_namealreadyexist">131</string>
+    <string name="err_enternumber">132</string>
+    <string name="msg_CTX_NT_UPDATED">133</string>
+    <string name="err_alreadyexist">134</string>
+    <string name="edit">135</string>
+
+    <string-array name="contactlongclkoptn">
+        <item>136</item>
+        <item>137</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">138</string>
+
+    <string-array name="selectimage">
+        <item>139</item>
+        <item>140</item>
+    </string-array>
+    <!-- this is predefined arraylist -->
+    <string-array name="predefineddresscode">
+        <item>141</item>
+        <item>142</item>
+        <item>143</item>
+        <item>144</item>
+        <item>145</item>
+    </string-array>
+
+
+    <string name="title_edit_group">146</string>
+    <string name="msg_nosim">147</string>
+    <string name="save">148</string>
+    <string name="title_selectimg">149</string>
+    <string name="first_name">150</string>
+    <string name="toast_msg_notupdated">151</string>
+    <string name="grp_detail_label">152</string>
+
+    <string name="registration_err_msg">153</string>
+    <string name="verification_err_msg">154</string>
+    <string name="resend_label">155</string>
+    <string name="empty_text_field_err_msg">156</string>
+    <string name="registration_success_msg">157</string>
+    <string name="title_events">158</string>
+    <string name="title_upcoming_events">159</string>
+    <string name="title_settings_activity">160</string>
+    <string name="title_past_events">161</string>
+    <string name="lbl_chng_icon">162</string>
+    <string name="lbl_grp_icon">163</string>
+    <string name="participant">164</string>
+    <string name="lbl_add_grp_icon">165</string>
+    <string name="msg_grp_created">166</string>
+    <string name="msg_grp_updated">167</string>
+    <string name="group_name_label">168</string>
+    <string name="number_empty_err_msg">169</string>
+    <string name="network_err_msg">170</string>
+    <string name="search_title">171</string>
+    <string name="hint_grp_name">172</string>
+    <string name="title_activity_search_place">173</string>
+    <string name="search_places">174</string>
+    <string name="done">175</string>
+    <string name="location_enable_msg">176</string>
+    <string name="yes_label">177</string>
+    <string name="no_label">178</string>
+    <!-- create event starting -->
+
+    <!-- unused -->
+    <string name="hint_eventtitle">179</string>
+    <string name="hint_eventdescription">180</string>
+
+    <string name="location">181</string>
+    <string name="allday">182</string>
+    <string name="calendar">183</string>
+    <string name="starttime">184</string>
+    <string name="startdate">185</string>
+    <string name="enddate">186</string>
+    <string name="endtime">187</string>
+    <!--unused-->
+    <!--<string name="advance">188</string>-->
+    <!--<string name="invitecontact">189</string>-->
+
+    <string name="datepicker">190</string>
+    <string name="lastdayconfirm">191</string>
+    <string name="guestbringing">192</string>
+    <string name="cost">193</string>
+    <!--unused-->
+    <!--<string name="rsvp_kidsoradult">194</string>-->
+    <!--<string name="limitrsvp">195</string>-->
+    <string name="hint_maxcapacity">196</string>
+    <string name="hint_blockseat">197</string>
+    <!--<string name="votingright">198</string>-->
+    <string name="hideguestlist">199</string>
+    <string name="chat">200</string>
+    <string name="datetime">201</string>
+    <string name="location_whr">202</string>
+    <string name="desc_what">203</string>
+    <string name="next">204</string>
+    <string name="event_done">205</string>
+    <string name="update_invitee">206</string>
+    <!--unused-->
+    <!--<string name="btn_detail_now">207</string>-->
+    <!--<string name="btn_detaillater">208</string>-->
+
+    <string name="last_day_error_end_date_empty">209</string>
+    <string name="recurrent_error_end_date_empty">210</string>
+    <string name="last_day_error_current_date">211</string>
+    <string name="enddate_smaller">212</string>
+    <string name="date_past">213</string>
+    <string name="startdate_bigger">214</string>
+    <string name="time_bigger_than_current">215</string>
+    <string name="start_time_bigger_than_end">216</string>
+    <string name="end_date_before_start">217</string>
+
+    <!-- create event ending -->
+
+
+    <string name="title_confirmation">218</string>
+    <string name="ok">219</string>
+    <string name="decline">220</string>
+    <string name="msg_delete_contact">221</string>
+    <string name="msg_delete_group">222</string>
+    <string name="search_label">223</string>
+    <string name="search_hint">224</string>
+    <string name="upcoming_label">225</string>
+    <string name="past_label">226</string>
+    <string name="rsvp_label">227</string>
+    <string name="rsvp_label_admin">228</string>
+    <string name="valid_number_label">229</string>
+
+    <!--unused-->
+    <!--<string name="hint_dress_code">230</string>-->
+    <string name="ok_label">231</string>
+    <string name="number_short_err_msg">232</string>
+    <string name="number_long_err_msg">233</string>
+    <string name="deadline_confirm_text">234</string>
+    <string name="in_days_label">235</string>
+    <string name="in_one_day_label">236</string>
+    <string name="in_hrs_label">237</string>
+    <string name="in_one_hr_label">238</string>
+    <string name="in_min_label">239</string>
+    <string name="now_label">240</string>
+    <string name="cost_text">241</string>
+    <string name="valid_date_err_msg">242</string>
+    <string name="title_activity_countries">243</string>
+    <string name="search_country_title">244</string>
+    <string name="extra_country_code">245</string>
+    <string name="no_upcoming_event_label">246</string>
+    <string name="title_activity_new_event">247</string>
+    <string name="today_label">248</string>
+    <string name="country_name">249</string>
+    <string name="create_group_title">250</string>
+    <string name="create_group_text">251</string>
+
+    <string name="color_type">252</string>
+    <string name="no_past_event_label">253</string>
+    <string name="gcm_register_error">254</string>
+    <string name="contacts_added_success">255</string>
+    <string name="msg_wrong_date">256</string>
+
+    <string name="std_code_txt_gap">257</string>
+    <string name="selectdresscode">258</string>
+    <string name="no_dress_code">259</string>
+    <string name="going">260</string>
+    <string name="maybe">261</string>
+    <string name="notgoing">262</string>
+    <string name="notresponded">263</string>
+    <string name="notresponded_eventcard">264</string>
+    <string name="title_registration_problem">265</string>
+    <string name="msg_deviceid_registration">266</string>
+
+
+    <string name="date_time_label">267</string>
+    <string name="start_date_time_label">268</string>
+    <string name="end_date_time_label">269</string>
+    <string name="title_activity_event_detail_admin">270</string>
+    <string name="rsvp_event_detail_label">271</string>
+    <string name="last_date_conformation_label">272</string>
+    <string name="cost_label">273</string>
+    <string name="guest_list_label">274</string>
+    <string name="description_label">275</string>
+    <string name="dress_code_label">276</string>
+    <string name="action_check_availability">277</string>
+    <string name="action_edit_event">278</string>
+    <string name="action_view_guest_list">279</string>
+    <string name="action_edit_guest_list">280</string>
+    <string name="action_delete_guest_list">281</string>
+    <string name="action_share_event">282</string>
+    <string name="action_view_expenses">283</string>
+    <string name="event_details_subtitle">284</string>
+    <string name="you">285</string>
+    <string name="you_suggestion">286</string>
+    <string name="cancel_label">287</string>
+    <string name="view_edit_details_label_past">288</string>
+    <string name="event_repeat">289</string>
+    <string name="view_edit_details_label">290</string>
+    <string name="cancel_event_label">291</string>
+    <string name="leave_delete_label">292</string>
+    <string name="leave_leave_label">293</string>
+    <string name="assign_admin_label">294</string>
+    <string name="sned_calendar_label">295</string>
+    <string name="mute_label">296</string>
+    <string name="unmute_label">297</string>
+    <string name="view_event_details_label">298</string>
+    <string name="leave_event_label">299</string>
+
+    <string name="cost_per_person_label">300</string>
+    <string name="no_of_guest_label">301</string>
+    <string name="title_guestlist">302</string>
+    <string name="manage_guest">303</string>
+    <string name="lives_in_label">304</string>
+    <string name="warning">305</string>
+    <string name="msg_discard">306</string>
+    <string name="msg_discard_group">307</string>
+    <string name="msg_notsynched">308</string>
+    <string name="deadline_confirm_one_day_text">309</string>
+    <string name="not_defined_label">310</string>
+    <string name="not_defined_label_2">311</string>
+    <string name="guest_not_available_label">312</string>
+    <string name="capacity_not_define_label">313</string>
+    <string name="title_assign_admin_activity">314</string>
+    <string name="title_activity_edit_event">315</string>
+    <string name="save_event">316</string>
+    <string name="end_invite">317</string>
+    <string name="event_update_successfull">318</string>
+    <string name="event_share_subject">319</string>
+    <string name="event_share_body">320</string>
+    <string name="report_problem_email_to">321</string>
+    <string name="report_problem_subject">322</string>
+
+    <!-- String for RSVP activity-->
+    <string name="nothing_selected">323</string>
+    <string name="max_capacity_exceed">324</string>
+    <string name="delete_past_event">325</string>
+    <string name="mute">326</string>
+    <string name="title_activity_chat">327</string>
+    <string name="UpComming_event">328</string>
+    <string name="chat_hint_text">329</string>
+    <string name="diffrent_selected">330</string>
+
+    <!-- String for RSVP activity-->
+    <string name="radio_going">331</string>
+    <string name="radio_maybe">332</string>
+    <string name="radio_notgoing">333</string>
+    <string name="rsvp_guest_bring">334</string>
+    <string name="rsvp_adults">335</string>
+    <string name="rsvp_kids">336</string>
+    <string name="leave_event_message">337</string>
+    <string name="title_activity_description_suggestion">338</string>
+    <string name="delete_event_message">339</string>
+    <string name="leave_event_alert_message">340</string>
+    <string name="delete_invitee_message">341</string>
+
+    <string name="delete_rsvp_message">342</string>
+    <string name="rsvp_response_msg">343</string>
+
+
+    <!-- String for Suggestion Activities-->
+    <string name="adding_suggestion">344</string>
+    <string name="locking_suggestion">345</string>
+    <string name="adminSuggestedByText">346</string>
+    <string name="inviteeSuggestedByText">347</string>
+    <string name="admin">348</string>
+    <string name="hintDescriptionSuggestion">349</string>
+    <string name="suggesterID">350</string>
+    <string name="suggeterContact">351</string>
+    <string name="suggestionsType">352</string>
+    <string name="startTimeLabelText">353</string>
+    <string name="endTimeLabelText">354</string>
+    <string name="noDescription">355</string>
+    <string name="noLocation">356</string>
+    <string name="startDate">357</string>
+    <string name="startTime">358</string>
+    <string name="endDate">359</string>
+    <string name="endTime">360</string>
+    <string name="EditDateTimeActivityLabel">361</string>
+    <string name="labelDescription">362</string>
+    <string name="labelLocation">363</string>
+    <string name="labelDateTime">364</string>
+    <string name="labelEditDescription">365</string>
+    <string name="labelEditLocation">366</string>
+    <string name="labelEditDateTime">367</string>
+    <string name="title_activity_account">368</string>
+    <string name="title_activity_event_setting">369</string>
+    <string name="title_activity_contact_setting">370</string>
+    <string name="title_activity_media_setting">371</string>
+    <string name="title_activity_notification_setting">372</string>
+    <string name="title_activity_help">373</string>
+    <string name="title_activity_faq">374</string>
+    <string name="title_change_number">375</string>
+
+    <!-- ***** Chat Activity resources ***** -->
+    <string name="action_photo">376</string>
+    <string name="action_camera">377</string>
+    <string name="action_audio">378</string>
+    <string name="action_contact">379</string>
+    <string name="action_file">380</string>
+    <string name="action_location">381</string>
+    <string name="action_video">382</string>
+    <string name="chat_disabled_msg">383</string>
+
+
+    <string name="msg_file_larger_than_10mb">384</string>
+    <!-- ***** GuestList resources ***** -->
+    <string name="delete_maybe">385</string>
+    <string name="max_capacity">386</string>
+    <string name="delete_no">387</string>
+    <string name="delete_not_replied">388</string>
+
+    <!-- ***** Profile Activity resources ***** -->
+    <string name="profile_remider_text">389</string>
+    <string name="remind_me">390</string>
+    <string name="view_profile_phone_number_label">391</string>
+    <string name="view_profile_status_label">392</string>
+    <string name="view_profile_location_label">393</string>
+    <string name="view_profile_gender_label">394</string>
+    <string name="view_profile_button_Block_label">395</string>
+    <string name="view_profile_button_UnBlock_label">396</string>
+
+    <string name="title_activity_network_usage">397</string>
+
+
+    <!--Newly added strings-->
+    <string name="unable_to_add_suggestion">398</string>
+    <string name="no_connection">399</string>
+    <string name="parse_error">400</string>
+    <string name="unknown_error">401</string>
+    <string name="authentication_problem">402</string>
+    <string name="unable_detect_sms">403</string>
+    <string name="unable_find_location">404</string>
+    <string name="deadline_passed">405</string>
+    <string name="deadline_passed_starttime">406</string>
+    <string name="contacts_updated">407</string>
+    <string name="delete_contacts">408</string>
+    <string name="correct_datetime">409</string>
+    <string name="enter_desc">410</string>
+    <string name="let_event_get_synced">411</string>
+    <string name="profile_reminder_txt">412</string>
+    <string name="sdcard_not_mounted">413</string>
+    <string name="wallpaper_set">414</string>
+    <string name="crop_action_unsupported">415</string>
+    <string name="mobile_data">416</string>
+    <string name="wifi_data">417</string>
+    <string name="roaming_data">418</string>
+    <string name="file_select">419</string>
+    <string name="file_cannot_processed">420</string>
+    <string name="msg_cannot_download">421</string>
+    <string name="msg_cannot_cancel">422</string>
+    <string name="msg_cannot_download_image">423</string>
+    <string name="image_nolonger_exist">424</string>
+    <string name="suggestion_not_synced">425</string>
+    <string name="wait_vote_sync">426</string>
+    <string name="no_network_connection">427</string>
+    <string name="assign_new_admin">428</string>
+    <string name="cannot_assign_admin">429</string>
+    <string name="non_syl_user">430</string>
+    <string name="remove_invitee">431</string>
+    <string name="options_dialog">432</string>
+    <string name="leave_event">433</string>
+    <string name="delete_event">434</string>
+    <string name="old_number">435</string>
+    <string name="new_number">436</string>
+    <string name="old_number_hint">437</string>
+    <string name="new_number_hint">438</string>
+    <string name="enter_number">439</string>
+    <string name="same_number">440</string>
+    <string name="change_number_dialog">441</string>
+    <string name="change_number_error">442</string>
+    <string name="change_number_confirm_error">443</string>
+    <string name="change_number_success">444</string>
+    <string name="confirm_deadline">445</string>
+    <string name="view">446</string>
+    <string name="event_info">447</string>
+    <string name="twitter_event_info">448</string>
+
+    <string name="delete_account_alert_message">449</string>
+    <string name="delete_account_alert_title">450</string>
+    <string name="add_to_contacts">451</string>
+    <string name="canceled_label">452</string>
+    <string name="waiting_label">453</string>
+    <string name="child_hint">454</string>
+    <string name="adult_hint">455</string>
+    <string name="not_available">456</string>
+    <string name="blockseats_without_max">457</string>
+    <string name="tbd">458</string>
+    <string name="blocker_seats_bigger">459</string>
+
+    <string name="event_title">460</string>
+    <string name="hint_event_title">461</string>
+    <string name="btn_detail_now">462</string>
+    <string name="btn_detaillater">463</string>
+    <string name="advance">464</string>
+    <string name="invitecontact">465</string>
+    <string name="description_title">468</string>
+    <string name="location_title">466</string>
+    <string name="rsvp_kidsoradult">467</string>
+    <string name="limitrsvp">469</string>
+    <string name="recurrent">470</string>
+    <string name="hint_optional">471</string>
+    <string name="maxcapacity">472</string>
+    <string name="blockseat">473</string>
+    <string name="hint_dress_code">474</string>
+    <string name="votingright">475</string>
+    <string name="suggestion_not_sync">476</string>
+    <string name="title_activity_delete_account">477</string>
+    <string name="delete_account_title">478</string>
+    <string name="delete_account_text1">479</string>
+    <string name="delete_account_text2">480</string>
+    <string name="delete_account_text3">481</string>
+    <string name="delete_account_button">482</string>
+    <string name="profile_not_found">483</string>
+    <string name="view_profile_email_label">484</string>
+    <string name="view_profile_dob_label">485</string>
+    <string name="Key_isImageUpdateNotification">486</string>
+    <string name="Key_eventId">487</string>
+    <string name="Key_fileUrl">488</string>
+    <string name="Key_thumbnail">489</string>
+    <string name="Key_filePath">490</string>
+    <string name="profile_phone_text">491</string>
+    <string name="atleast_one_participant">492</string>
+    <string name="max_no_of_going_exceed">493</string>
+    <string name="no_event_found">494</string>
+
+    <string name="tell_a_freind_content">495</string>
+    <string name="tell_a_freind_subject">496</string>
+    <string name="tell_a_freind_content_email">497</string>
+    <string name="upcoming_event_notification_validation">498</string>
+    <string name="endDate_currentDate">499</string>
+    <string name="hint_hrs_before">500</string>
+    <string name="faq_text">501</string>
+    <string name="facebook_link">502</string>
+    <string name="enter_location">503</string>
+    <string name="wallpaper_choose">504</string>
+    <string name="wallpaper_remove">505</string>
+    <string name="wallpaper_title">506</string>
+    <string name="waiting">507</string>
+    <string name="rsvp_limit">508</string>
+    <string name="suggestion_navigator">509</string>
+    <string name="suggestion_delete">510</string>
+    <string name="suggestion_dialog_title">511</string>
+    <string name="action_chat_inpast">512</string>
+    <string name="held_on">513</string>
+    <string name="guest_invited">514</string>
+    <string name="congrats_text">515</string>
+    <!-- <string name="sharing_string1">517</string>
+     <string name="sharing_string2">516</string>-->
+    <!--<string name="sharing_string1">517</string>-->
+    <string name="sharing_string1">517</string>
+
+    <string name="sharing_string2">516</string>
+
+    <string name="title_activity_system_status">518</string>
+    <string name="text_error1">519</string>
+    <string name="text_error2">520</string>
+    <string name="text_error3">521</string>
+    <string name="text_last_sync">522</string>
+    <string name="text_special_char_restriction">523</string>
+    <string name="delete_group">524</string>
+    <string name="delete_group_message">525</string>
+    <string name="del_suggestion">526</string>
+    <string name="del_suggestion_msg">527</string>
+    <string name="upload_more_pics">528</string>
+    <string name="upload_more_vid">529</string>
+    <string name="copy_text">530</string>
+    <string name="copy_selected_text">531</string>
+    <string name="copy_text_toast">532</string>
+    <string name="version">533</string>
+
+    <!-- Round 3 strings-->
+    <string name="chat_disabled_msg_server">534</string>
+    <string name="cancel_event">535</string>
+    <string name="currency_selector_header">536</string>
+    <string-array name="predefined_currency">
+        <item>537</item>
+        <item>538</item>
+    </string-array>
+    <string name="cancel_event_message">539</string>
+    <string name="rsvp_screenl_label">540</string>
+    <string name="rsvp_screenl_label_ask">541</string>
+
+    <string name="days_remains">542</string>
+    <string name="hours_before">543</string>
+    <string name="font_size">544</string>
+    <string name="font_large">545</string>
+    <string name="font_small">546</string>
+    <string name="font_medium">547</string>
+    <string name="change_number_text">548</string>
+    <string name="max_capacity_label">549</string>
+
+    <string name="sunday_label">550</string>
+    <string name="monday_label">551</string>
+    <string name="tuesday_label">552</string>
+    <string name="wednessday_label">553</string>
+    <string name="thursday_label">554</string>
+    <string name="firday_label">555</string>
+    <string name="saturday_label">556</string>
+
+    <string name="lastdate_to_confirm_error">557</string>
+    <string name="date_lastdat_current">558</string>
+    <string name="lastday_in_days_label">559</string>
+    <string name="lastday_in_one_day_label">560</string>
+    <string name="lastday_in_hrs_label">561</string>
+    <string name="lastday_in_min_label">562</string>
+    <string name="lastday_in_one_hrs_label">563</string>
+    <string name="rsvp_passed">564</string>
+
+    <string name="create_group_text_change">565</string>
+    <string name="setting_image">566</string>
+    <string name="setting_video">567</string>
+    <string name="setting_all">568</string>
+    <string name="setting_no">569</string>
+    <string name="event_past_lable">570</string>
+    <string name="event_past_attended_key">571</string>
+    <string name="event_past_attended_key_msg_enable">572</string>
+    <string name="event_past_cancel_key">573</string>
+    <string name="event_past_cancel_key_msg_enable">574</string>
+    <string name="event_past_cancel_key_msg_disable">575</string>
+    <string name="rsvp_status_msg">576</string>
+    <string name="msg_file_cannot_process">577</string>
+    <string name="loading_msg">578</string>
+    <string name="gender_male">579</string>
+    <string name="gender_female">580</string>
+    <string name="rsvp_in_waiting">581</string>
+    <string name="share_using">582</string>
+    <string name="event_add_calender_title">583</string>
+    <string name="event_add_calender_key_enable">584</string>
+    <string name="event_add_calender_key_disable">585</string>
+    <string name="load_more_btn_text">586</string>
+    <string name="event_not_synced_text">587</string>
+    <string name="file_limit_reached">588</string>
+    <string name="msg_delivery_fail">589</string>
+    <string name="msg_guest_lst_hide">590</string>
+
+    <string name="delete_text">591</string>
+    <string name="share_text">592</string>
+    <string name="forward_text">593</string>
+    <string name="share_img">594</string>
+    <string name="share_vid">595</string>
+    <string name="file_deleted">596</string>
+    <string name="files_deleted">597</string>
+    <string name="delete_past_files_title">598</string>
+    <string name="delete_past_files_message">599</string>
+    <string name="noti_image">600</string>
+    <string name="noti_vid">601</string>
+
+    <string name="recurrent_msg">602</string>
+    <string name="recurrent_modify_before">603</string>
+    <string name="recurrent_yes_label">604</string>
+    <string name="recurrent_no_label">605</string>
+    <string name="recurrent_success">606</string>
+    <string name="recurrent_fails">607</string>
+
+
+    <!--Release 21 Strings-->
+    <string name="discard_edit_event_changes">608</string>
+    <string name="server_status_normal">609</string>
+    <string name="rsvp_activity">610</string>
+    <string name="del_account_phone_number_error">611</string>
+    <string name="faq_link">612</string>
+    <string name="legal_notice_link">613</string>
+    <string name="privacy_policy_link">614</string>
+    <string name="assign_admin_loading_msg">615</string>
+    <string name="no_invitee">616</string>
+    <string name="last_date_to_confirm_1_hr_error">617</string>
+
+    <string name="media_download_problem">618</string>
+    <string name="voting_closed_text">619</string>
+    <string name="no_suggestion_selected">620</string>
+    <string name="voting_closed">621</string>
+    <string name="imported_successfully">622</string>
+    <string name="time_lastdat_current">623</string>
+
+    <string name="warning_forward_chat_cancel">624</string>
+    <string name="warning_forward_chat_disable">625</string>
+    <plurals name="contact_selected">
+        <item quantity="one">626</item>
+        <item quantity="other">627</item>
+    </plurals>
+    <string name="no_event_text">628</string>
+    <string name="no_event_create_event">629</string>
+    <string name="action_contact_admin">630</string>
+    <string name="title_activity_see_you_all_news">631</string>
+
+    <string name="activity_see_you_all_news_action_bar_title">632</string>
+    <string name="no_broadcast_news">633</string>
+
+    <string name="delete_broadcast_notification_title">634</string>
+    <string name="delete_broadcast_notification_msg">635</string>
+    <string name="profile_status_hint">636</string>
+    <string name="sharing_files_null">637</string>
+    <string name="file_limit_reached_share">638</string>
+    <string name="past_card_date">639</string>
+    <string name="change_profile_pic_label">640</string>
+    <string name="current_number_not_valid">641</string>
+    <string name="event_past_attended_key_msg_disable">642</string>
+    <string name="public_label">643</string>
+    <string name="private_label">644</string>
+    <string name="not_defined">645</string>
+    <string name="other_gender_label">646</string>
+    <string name="other_gender_hint">647</string>
+    <string name="profile_privacy_text">648</string>
+    <string name="error_text">649</string>
+    <string name="event_cost_error">650</string>
+    <string name="profile_empty_status_text">651</string>
+
+    <string name="profile_empty_name_text">652</string>
+    <string name="profile_empty_email_text">653</string>
+    <string name="profile_empty_dob_text">654</string>
+    <string name="profile_empty_location_text">655</string>
+
+    <string name="reset_stats_dialogue_title">656</string>
+    <string name="reset_stats_dialogue_msg">657</string>
+    <string name="reset_stats_dialogue_yes">658</string>
+    <string name="reset_stats_dialogue_no">659</string>
+    <string name="and">660</string>
+
+    <string name="default_profile_status">Organizing my hangouts with SeeYouAll</string>
+</resources>
