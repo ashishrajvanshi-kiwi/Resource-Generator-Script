@@ -2,7 +2,7 @@
 
 ## Intro
 
-Resource generator script is used to create the string resource file for multiple language support. It allows the user to create multiple resource file of multiple laguage support in just one go automatically.
+Resource generator script is helpful in creating the string resource file for multiple language support. It allows the user to create multiple resource file of multiple laguage support in just one go automatically.
 
 ## Prerequisites
 - Template resource file with predefined guidlines.
@@ -15,7 +15,11 @@ Resource generator script is used to create the string resource file for multipl
 
 ## Guidlines
 
-
+- Template resource file name should be as follows
+     - For Android should be named as "template_android"
+     - For Ios should be named as "template_ios"
+     - For window should be named as "template_window"
+ - CSV file which contain all language support info, will be common for all platform and its name should be "data.csv".
 
 ## Support
 
