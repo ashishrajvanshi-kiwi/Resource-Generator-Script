@@ -1,0 +1,62 @@
+# RESOURCE GENERATOR SCRIPT
+
+## Intro
+
+Resource generator script is used to create the string resource file for multiple language support. It allows the user to create multiple resource file of multiple laguage support in just one go automatically.
+
+## Prerequisites
+- Template resource file with predefined guidlines.
+- CSV file that contain all language support info
+
+### Software requirements
+- Terminal
+- OS (IOS , Linux)
+- Python framework (csv, cgi, os, sys)
+
+## Guidlines
+
+
+
+## Support
+
+This script provide the support for creating resource file for below languages
+- Android
+- Ios
+- Windows
+
+
+
+## How it works
+
+
+
+## How to use
+
+Below is the format of command to create the resource file
+
+- Create resource for all platforms
+
+		eg:-	$ python script.py  
+	It will create the resource file in all supported platforms
+
+- You can specify for which platform you want to generate the resource file
+
+		eg:-	$ python script.py android
+				$ python script.py ios
+				$ python script.py window
+	It will create the resource file in specified supported platform 
+
+- You can also specify more than one platform
+
+		eg:-	$ python script.py android ios
+				$ python script.py ios window
+				$ python script.py android window
+	It will create the resource file in specified platforms
+
+
+
+## Contributors
+- Ashish Rajvanshi (ashish.rajvanshi@kiwitech.com)
+- Manoj Chauhan (manoj@kiwitech.com)
+
+**Free Software, Hell Yeah!**
