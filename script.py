@@ -113,8 +113,8 @@ for idx, platform in enumerate(platforms):
 
 								replaced = True
 						elif platform == "ios":
-							if "\"" + rfrom + "\"" in line: 
-								line = line.replace(rfrom,rto)
+							if "###" + rfrom + "###" in line: 
+								line = line.replace("###" + rfrom + "###",rto)
 								fout.write(line)
 								print "replacing " , rfrom , " with " , rto
 
