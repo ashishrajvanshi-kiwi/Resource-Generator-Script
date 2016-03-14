@@ -19,7 +19,7 @@ Resource generator script is helpful in creating the string resource file for mu
      - For Android should be named as "template_android"
      - For Ios should be named as "template_ios"
      - For window should be named as "template_window"
- - CSV file which contain all language support info, will be common for all platform and its name should be "data.csv".
+- CSV file which contain all language support info, will be common for all platform and its name should be "data.csv".
 
 ## Support
 
