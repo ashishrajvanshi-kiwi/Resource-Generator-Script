@@ -41,7 +41,7 @@ if not platforms:
 
 
 available_language = []
-csv_input_file = 'data.csv'
+csv_input_file = 'data1.csv'
 
 
 # check for available languages to create files
@@ -88,16 +88,14 @@ for idx, platform in enumerate(platforms):
 		with open(outFileName, "wt") as fout:
 			templateFileName = getTemplateFileName(platform)
 			with open(templateFileName, "rt") as fin:
-				for line in fin:
+				for ln in fin:
+
 
 					f = open(csv_input_file)
 					csv_f = csv.reader(f)
 
-					replaced = False
+					line = ln
 					for row in csv_f:
-
-#						str = ' '.join(row)
-#						str = cgi.escape(str)
 
 						rfrom = row[0].strip()
 						rto = cgi.escape(row[language_tab+1])
@@ -108,19 +106,16 @@ for idx, platform in enumerate(platforms):
 								line = line.replace(rfrom,rto)
 								line = line.replace('&lt;','<')
 								line = line.replace('&gt;','>')
-								fout.write(line)
 								print "replacing " , rfrom , " with " , rto
 
 								replaced = True
 						elif platform == "ios":
 							if "###" + rfrom + "###" in line: 
 								line = line.replace("###" + rfrom + "###",rto)
-								fout.write(line)
 								print "replacing " , rfrom , " with " , rto
 
 								replaced = True
-					if( not replaced):
-						fout.write(line)
+					fout.write(line)
 
 print "============================  FINISH  ============================\n"
 

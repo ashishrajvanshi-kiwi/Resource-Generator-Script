@@ -1,775 +1,1041 @@
-IOS hello
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">1</string>
-    <string name="app_header">2</string>
-    <string name="hello_world">3</string>
-    <string name="action_settings">4</string>
-    <string name="title_activity_registration">5</string>
-    <string name="account_type">6</string>
-    <string name="msg_noresult">7</string>
-    <string name="action_update">8</string>
-
-
-    <!-- ***** App dialogs and toast's resources ***** -->
-    <string name="network_unavailable">9</string>
-    <string name="fb_authenticating">10</string>
-
-    <!-- ***** Registration resources ***** -->
-    <string name="register_progress_label">11</string>
-    <string name="continue_label">12</string>
-    <string name="authenticate_label">13</string>
-    <string name="terms_conditions_label">14</string>
-    <string name="validate_phone_label">15</string>
-    <string name="validate_phone_sublabel">16</string>
-    <string name="phone_number_label">17</string>
-    <string name="verification_sms_text">18</string>
-
-    <!-- ***** Registration resources ***** -->
-    <string name="contacts_label">19</string>
-    <string name="groups_label">20</string>
-    <string name="title_activity_contacts">21</string>
-    <string name="contacts_tab_label">22</string>
-    <string name="groups_tab_label">23</string>
-    <string name="contact_refresh">24</string>
-    <string name="add_contact_label">25</string>
-    <string name="add_group_label">26</string>
-    <string name="create_group_label">27</string>
-    <string name="edit_group_label">28</string>
-    <!-- ***** Import Facebook resources ***** -->
-    <string name="continue_facebook">29</string>
-    <string name="no_thanks_continue_label">30</string>
-    <string name="import_facebook_label">31</string>
-    <string name="incorporate_contacts_label">32</string>
-    <string name="publish_tour_label">33</string>
-    <string name="seeyoual_facebook_permission">34</string>
-
-    <!-- ***** Home Activity resources ***** -->
-    <string name="action_search">35</string>
-    <string name="action_new_event">36</string>
-    <string name="action_profile">37</string>
-    <string name="action_contacts">38</string>
-    <string name="events_label">39</string>
-    <string name="contact_progress">40</string>
-
-    <!-- ***** Introduction Activity resources ***** -->
-    <string name="continue_btn_label">41</string>
-    <string name="intro_1_label">42</string>
-    <string name="manage_label">43</string>
-    <string name="intro_2_label">44</string>
-    <string name="intro_2_label_header">45</string>
-    <string name="intro_3_label">46</string>
-    <string name="intro_3_label_header">47</string>
-    <!-- ***** Profile Activity resources ***** -->
-    <string name="name_label">48</string>
-    <string name="status_label">49</string>
-    <string name="email_label">50</string>
-    <string name="date_of_birth_label">51</string>
-    <string name="gender_label">52</string>
-    <string name="male_label">53</string>
-    <string name="female_label">54</string>
-    <string name="import_fb__label">55</string>
-    <string name="add_profile_pic_label">56</string>
-    <string name="save_btn_label">57</string>
-    <string name="select_picture_label">58</string>
-    <string name="validate_birth_date_error">59</string>
-    <string name="validate_email_error">60</string>
-    <string name="profile_updated_msg">61</string>
-    <string name="location_label">62</string>
-
-    <!-- ***** AddContact Activity resources ***** -->
-    <string name="create_contact_label">63</string>
-    <string name="first_name_label">64</string>
-    <string name="last_name_label">65</string>
-    <string name="phone_number_contact_label">66</string>
-
-    <!-- ***** Verification Activity resources ***** -->
-    <string name="verification_code_label">67</string>
-    <string name="enter_code_label">68</string>
-    <string name="submit_label">69</string>
-    <string name="reset">70</string>
-
-
-    <!-- ***** Seeting Activity resources ***** -->
-    <string name="setting_help">71</string>
-    <string name="setting_profile">72</string>
-    <string name="setting_account">73</string>
-    <string name="setting_contact">74</string>
-    <string name="setting_event">75</string>
-    <string name="setting_notification">76</string>
-    <string name="setting_default">77</string>
-    <string name="account_privacy">78</string>
-    <string name="account_change_number">79</string>
-    <string name="account_network">80</string>
-    <string name="account_payment">81</string>
-    <string name="account_delete">82</string>
-    <string name="event_setting_enter_key">83</string>
-    <string name="event_setting_enter_key_status">84</string>
-    <string name="event_setting_enter_key_add">85</string>
-    <string name="event_setting_media">86</string>
-    <string name="event_setting_chat">87</string>
-    <string name="event_font_size">88</string>
-    <string name="event_font_size_for">89</string>
-    <string name="event_wallpaper">90</string>
-    <string name="contact_setting_tellfriend">91</string>
-    <string name="contact_setting_payfriend">92</string>
-    <string name="contact_setting_showall">93</string>
-    <string name="contact_setting_enable">94</string>
-    <string name="media_setting_when">95</string>
-    <string name="media_setting_no">96</string>
-    <string name="media_setting_wifi">97</string>
-    <string name="media_setting_all">98</string>
-    <string name="media_setting_roaming">99</string>
-
-    <string name="messages_sent">100</string>
-    <string name="messages_received">101</string>
-    <string name="media_bytes_sent">102</string>
-    <string name="media_bytes_received">103</string>
-    <string name="message_bytes_sent">104</string>
-    <string name="message_bytes_received">105</string>
-    <string name="total_bytes_sent">106</string>
-    <string name="total_bytes_received">107</string>
-    <string name="reset_usage">108</string>
-    <string name="messages">109</string>
-    <string name="message">110</string>
-
-
-    <string name="noti_setting_alert">111</string>
-    <string name="noti_setting_tone">112</string>
-    <string name="upcoming_event_notification">113</string>
-    <string name="noti_setting_select">114</string>
-    <string name="upcoming_event_notification_text">115</string>
-    <!-- ***** help  Activity resources ***** -->
-    <string name="help_about">116</string>
-    <string name="help_faq">117</string>
-    <string name="help_system_status">118</string>
-    <string name="help_report">119</string>
-    <!-- ***** About  Activity resources ***** -->
-    <string name="about_copyright">120</string>
-    <string name="about_appname">121</string>
-
-
-    <string name="number">122</string>
-    <string name="name">123</string>
-    <string name="invitee_block_msg">124</string>
-    <string name="wrong_number">125</string>
-    <string name="wrong_number_edit">126</string>
-    <string name="add">127</string>
-    <string name="contactoptions">128</string>
-    <string name="err_entername">129</string>
-    <string name="err_entername_group">130</string>
-    <string name="err_namealreadyexist">131</string>
-    <string name="err_enternumber">132</string>
-    <string name="msg_CTX_NT_UPDATED">133</string>
-    <string name="err_alreadyexist">134</string>
-    <string name="edit">135</string>
-
-    <string-array name="contactlongclkoptn">
-        <item>136</item>
-        <item>137</item>
-    </string-array>
-
-    <string name="hello_blank_fragment">138</string>
-
-    <string-array name="selectimage">
-        <item>139</item>
-        <item>140</item>
-    </string-array>
-    <!-- this is predefined arraylist -->
-    <string-array name="predefineddresscode">
-        <item>141</item>
-        <item>142</item>
-        <item>143</item>
-        <item>144</item>
-        <item>145</item>
-    </string-array>
-
-
-    <string name="title_edit_group">146</string>
-    <string name="msg_nosim">147</string>
-    <string name="save">148</string>
-    <string name="title_selectimg">149</string>
-    <string name="first_name">150</string>
-    <string name="toast_msg_notupdated">151</string>
-    <string name="grp_detail_label">152</string>
-
-    <string name="registration_err_msg">153</string>
-    <string name="verification_err_msg">154</string>
-    <string name="resend_label">155</string>
-    <string name="empty_text_field_err_msg">156</string>
-    <string name="registration_success_msg">157</string>
-    <string name="title_events">158</string>
-    <string name="title_upcoming_events">159</string>
-    <string name="title_settings_activity">160</string>
-    <string name="title_past_events">161</string>
-    <string name="lbl_chng_icon">162</string>
-    <string name="lbl_grp_icon">163</string>
-    <string name="participant">164</string>
-    <string name="lbl_add_grp_icon">165</string>
-    <string name="msg_grp_created">166</string>
-    <string name="msg_grp_updated">167</string>
-    <string name="group_name_label">168</string>
-    <string name="number_empty_err_msg">169</string>
-    <string name="network_err_msg">170</string>
-    <string name="search_title">171</string>
-    <string name="hint_grp_name">172</string>
-    <string name="title_activity_search_place">173</string>
-    <string name="search_places">174</string>
-    <string name="done">175</string>
-    <string name="location_enable_msg">176</string>
-    <string name="yes_label">177</string>
-    <string name="no_label">178</string>
-    <!-- create event starting -->
-
-    <!-- unused -->
-    <string name="hint_eventtitle">179</string>
-    <string name="hint_eventdescription">180</string>
-
-    <string name="location">181</string>
-    <string name="allday">182</string>
-    <string name="calendar">183</string>
-    <string name="starttime">184</string>
-    <string name="startdate">185</string>
-    <string name="enddate">186</string>
-    <string name="endtime">187</string>
-    <!--unused-->
-    <!--<string name="advance">188</string>-->
-    <!--<string name="invitecontact">189</string>-->
-
-    <string name="datepicker">190</string>
-    <string name="lastdayconfirm">191</string>
-    <string name="guestbringing">192</string>
-    <string name="cost">193</string>
-    <!--unused-->
-    <!--<string name="rsvp_kidsoradult">194</string>-->
-    <!--<string name="limitrsvp">195</string>-->
-    <string name="hint_maxcapacity">196</string>
-    <string name="hint_blockseat">197</string>
-    <!--<string name="votingright">198</string>-->
-    <string name="hideguestlist">199</string>
-    <string name="chat">200</string>
-    <string name="datetime">201</string>
-    <string name="location_whr">202</string>
-    <string name="desc_what">203</string>
-    <string name="next">204</string>
-    <string name="event_done">205</string>
-    <string name="update_invitee">206</string>
-    <!--unused-->
-    <!--<string name="btn_detail_now">207</string>-->
-    <!--<string name="btn_detaillater">208</string>-->
-
-    <string name="last_day_error_end_date_empty">209</string>
-    <string name="recurrent_error_end_date_empty">210</string>
-    <string name="last_day_error_current_date">211</string>
-    <string name="enddate_smaller">212</string>
-    <string name="date_past">213</string>
-    <string name="startdate_bigger">214</string>
-    <string name="time_bigger_than_current">215</string>
-    <string name="start_time_bigger_than_end">216</string>
-    <string name="end_date_before_start">217</string>
-
-    <!-- create event ending -->
-
-
-    <string name="title_confirmation">218</string>
-    <string name="ok">219</string>
-    <string name="decline">220</string>
-    <string name="msg_delete_contact">221</string>
-    <string name="msg_delete_group">222</string>
-    <string name="search_label">223</string>
-    <string name="search_hint">224</string>
-    <string name="upcoming_label">225</string>
-    <string name="past_label">226</string>
-    <string name="rsvp_label">227</string>
-    <string name="rsvp_label_admin">228</string>
-    <string name="valid_number_label">229</string>
-
-    <!--unused-->
-    <!--<string name="hint_dress_code">230</string>-->
-    <string name="ok_label">231</string>
-    <string name="number_short_err_msg">232</string>
-    <string name="number_long_err_msg">233</string>
-    <string name="deadline_confirm_text">234</string>
-    <string name="in_days_label">235</string>
-    <string name="in_one_day_label">236</string>
-    <string name="in_hrs_label">237</string>
-    <string name="in_one_hr_label">238</string>
-    <string name="in_min_label">239</string>
-    <string name="now_label">240</string>
-    <string name="cost_text">241</string>
-    <string name="valid_date_err_msg">242</string>
-    <string name="title_activity_countries">243</string>
-    <string name="search_country_title">244</string>
-    <string name="extra_country_code">245</string>
-    <string name="no_upcoming_event_label">246</string>
-    <string name="title_activity_new_event">247</string>
-    <string name="today_label">248</string>
-    <string name="country_name">249</string>
-    <string name="create_group_title">250</string>
-    <string name="create_group_text">251</string>
-
-    <string name="color_type">252</string>
-    <string name="no_past_event_label">253</string>
-    <string name="gcm_register_error">254</string>
-    <string name="contacts_added_success">255</string>
-    <string name="msg_wrong_date">256</string>
-
-    <string name="std_code_txt_gap">257</string>
-    <string name="selectdresscode">258</string>
-    <string name="no_dress_code">259</string>
-    <string name="going">260</string>
-    <string name="maybe">261</string>
-    <string name="notgoing">262</string>
-    <string name="notresponded">263</string>
-    <string name="notresponded_eventcard">264</string>
-    <string name="title_registration_problem">265</string>
-    <string name="msg_deviceid_registration">266</string>
-
-
-    <string name="date_time_label">267</string>
-    <string name="start_date_time_label">268</string>
-    <string name="end_date_time_label">269</string>
-    <string name="title_activity_event_detail_admin">270</string>
-    <string name="rsvp_event_detail_label">271</string>
-    <string name="last_date_conformation_label">272</string>
-    <string name="cost_label">273</string>
-    <string name="guest_list_label">274</string>
-    <string name="description_label">275</string>
-    <string name="dress_code_label">276</string>
-    <string name="action_check_availability">277</string>
-    <string name="action_edit_event">278</string>
-    <string name="action_view_guest_list">279</string>
-    <string name="action_edit_guest_list">280</string>
-    <string name="action_delete_guest_list">281</string>
-    <string name="action_share_event">282</string>
-    <string name="action_view_expenses">283</string>
-    <string name="event_details_subtitle">284</string>
-    <string name="you">285</string>
-    <string name="you_suggestion">286</string>
-    <string name="cancel_label">287</string>
-    <string name="view_edit_details_label_past">288</string>
-    <string name="event_repeat">289</string>
-    <string name="view_edit_details_label">290</string>
-    <string name="cancel_event_label">291</string>
-    <string name="leave_delete_label">292</string>
-    <string name="leave_leave_label">293</string>
-    <string name="assign_admin_label">294</string>
-    <string name="sned_calendar_label">295</string>
-    <string name="mute_label">296</string>
-    <string name="unmute_label">297</string>
-    <string name="view_event_details_label">298</string>
-    <string name="leave_event_label">299</string>
-
-    <string name="cost_per_person_label">300</string>
-    <string name="no_of_guest_label">301</string>
-    <string name="title_guestlist">302</string>
-    <string name="manage_guest">303</string>
-    <string name="lives_in_label">304</string>
-    <string name="warning">305</string>
-    <string name="msg_discard">306</string>
-    <string name="msg_discard_group">307</string>
-    <string name="msg_notsynched">308</string>
-    <string name="deadline_confirm_one_day_text">309</string>
-    <string name="not_defined_label">310</string>
-    <string name="not_defined_label_2">311</string>
-    <string name="guest_not_available_label">312</string>
-    <string name="capacity_not_define_label">313</string>
-    <string name="title_assign_admin_activity">314</string>
-    <string name="title_activity_edit_event">315</string>
-    <string name="save_event">316</string>
-    <string name="end_invite">317</string>
-    <string name="event_update_successfull">318</string>
-    <string name="event_share_subject">319</string>
-    <string name="event_share_body">320</string>
-    <string name="report_problem_email_to">321</string>
-    <string name="report_problem_subject">322</string>
-
-    <!-- String for RSVP activity-->
-    <string name="nothing_selected">323</string>
-    <string name="max_capacity_exceed">324</string>
-    <string name="delete_past_event">325</string>
-    <string name="mute">326</string>
-    <string name="title_activity_chat">327</string>
-    <string name="UpComming_event">328</string>
-    <string name="chat_hint_text">329</string>
-    <string name="diffrent_selected">330</string>
-
-    <!-- String for RSVP activity-->
-    <string name="radio_going">331</string>
-    <string name="radio_maybe">332</string>
-    <string name="radio_notgoing">333</string>
-    <string name="rsvp_guest_bring">334</string>
-    <string name="rsvp_adults">335</string>
-    <string name="rsvp_kids">336</string>
-    <string name="leave_event_message">337</string>
-    <string name="title_activity_description_suggestion">338</string>
-    <string name="delete_event_message">339</string>
-    <string name="leave_event_alert_message">340</string>
-    <string name="delete_invitee_message">341</string>
-
-    <string name="delete_rsvp_message">342</string>
-    <string name="rsvp_response_msg">343</string>
-
-
-    <!-- String for Suggestion Activities-->
-    <string name="adding_suggestion">344</string>
-    <string name="locking_suggestion">345</string>
-    <string name="adminSuggestedByText">346</string>
-    <string name="inviteeSuggestedByText">347</string>
-    <string name="admin">348</string>
-    <string name="hintDescriptionSuggestion">349</string>
-    <string name="suggesterID">350</string>
-    <string name="suggeterContact">351</string>
-    <string name="suggestionsType">352</string>
-    <string name="startTimeLabelText">353</string>
-    <string name="endTimeLabelText">354</string>
-    <string name="noDescription">355</string>
-    <string name="noLocation">356</string>
-    <string name="startDate">357</string>
-    <string name="startTime">358</string>
-    <string name="endDate">359</string>
-    <string name="endTime">360</string>
-    <string name="EditDateTimeActivityLabel">361</string>
-    <string name="labelDescription">362</string>
-    <string name="labelLocation">363</string>
-    <string name="labelDateTime">364</string>
-    <string name="labelEditDescription">365</string>
-    <string name="labelEditLocation">366</string>
-    <string name="labelEditDateTime">367</string>
-    <string name="title_activity_account">368</string>
-    <string name="title_activity_event_setting">369</string>
-    <string name="title_activity_contact_setting">370</string>
-    <string name="title_activity_media_setting">371</string>
-    <string name="title_activity_notification_setting">372</string>
-    <string name="title_activity_help">373</string>
-    <string name="title_activity_faq">374</string>
-    <string name="title_change_number">375</string>
-
-    <!-- ***** Chat Activity resources ***** -->
-    <string name="action_photo">376</string>
-    <string name="action_camera">377</string>
-    <string name="action_audio">378</string>
-    <string name="action_contact">379</string>
-    <string name="action_file">380</string>
-    <string name="action_location">381</string>
-    <string name="action_video">382</string>
-    <string name="chat_disabled_msg">383</string>
-
-
-    <string name="msg_file_larger_than_10mb">384</string>
-    <!-- ***** GuestList resources ***** -->
-    <string name="delete_maybe">385</string>
-    <string name="max_capacity">386</string>
-    <string name="delete_no">387</string>
-    <string name="delete_not_replied">388</string>
-
-    <!-- ***** Profile Activity resources ***** -->
-    <string name="profile_remider_text">389</string>
-    <string name="remind_me">390</string>
-    <string name="view_profile_phone_number_label">391</string>
-    <string name="view_profile_status_label">392</string>
-    <string name="view_profile_location_label">393</string>
-    <string name="view_profile_gender_label">394</string>
-    <string name="view_profile_button_Block_label">395</string>
-    <string name="view_profile_button_UnBlock_label">396</string>
-
-    <string name="title_activity_network_usage">397</string>
-
-
-    <!--Newly added strings-->
-    <string name="unable_to_add_suggestion">398</string>
-    <string name="no_connection">399</string>
-    <string name="parse_error">400</string>
-    <string name="unknown_error">401</string>
-    <string name="authentication_problem">402</string>
-    <string name="unable_detect_sms">403</string>
-    <string name="unable_find_location">404</string>
-    <string name="deadline_passed">405</string>
-    <string name="deadline_passed_starttime">406</string>
-    <string name="contacts_updated">407</string>
-    <string name="delete_contacts">408</string>
-    <string name="correct_datetime">409</string>
-    <string name="enter_desc">410</string>
-    <string name="let_event_get_synced">411</string>
-    <string name="profile_reminder_txt">412</string>
-    <string name="sdcard_not_mounted">413</string>
-    <string name="wallpaper_set">414</string>
-    <string name="crop_action_unsupported">415</string>
-    <string name="mobile_data">416</string>
-    <string name="wifi_data">417</string>
-    <string name="roaming_data">418</string>
-    <string name="file_select">419</string>
-    <string name="file_cannot_processed">420</string>
-    <string name="msg_cannot_download">421</string>
-    <string name="msg_cannot_cancel">422</string>
-    <string name="msg_cannot_download_image">423</string>
-    <string name="image_nolonger_exist">424</string>
-    <string name="suggestion_not_synced">425</string>
-    <string name="wait_vote_sync">426</string>
-    <string name="no_network_connection">427</string>
-    <string name="assign_new_admin">428</string>
-    <string name="cannot_assign_admin">429</string>
-    <string name="non_syl_user">430</string>
-    <string name="remove_invitee">431</string>
-    <string name="options_dialog">432</string>
-    <string name="leave_event">433</string>
-    <string name="delete_event">434</string>
-    <string name="old_number">435</string>
-    <string name="new_number">436</string>
-    <string name="old_number_hint">437</string>
-    <string name="new_number_hint">438</string>
-    <string name="enter_number">439</string>
-    <string name="same_number">440</string>
-    <string name="change_number_dialog">441</string>
-    <string name="change_number_error">442</string>
-    <string name="change_number_confirm_error">443</string>
-    <string name="change_number_success">444</string>
-    <string name="confirm_deadline">445</string>
-    <string name="view">446</string>
-    <string name="event_info">447</string>
-    <string name="twitter_event_info">448</string>
-
-    <string name="delete_account_alert_message">449</string>
-    <string name="delete_account_alert_title">450</string>
-    <string name="add_to_contacts">451</string>
-    <string name="canceled_label">452</string>
-    <string name="waiting_label">453</string>
-    <string name="child_hint">454</string>
-    <string name="adult_hint">455</string>
-    <string name="not_available">456</string>
-    <string name="blockseats_without_max">457</string>
-    <string name="tbd">458</string>
-    <string name="blocker_seats_bigger">459</string>
-
-    <string name="event_title">460</string>
-    <string name="hint_event_title">461</string>
-    <string name="btn_detail_now">462</string>
-    <string name="btn_detaillater">463</string>
-    <string name="advance">464</string>
-    <string name="invitecontact">465</string>
-    <string name="description_title">468</string>
-    <string name="location_title">466</string>
-    <string name="rsvp_kidsoradult">467</string>
-    <string name="limitrsvp">469</string>
-    <string name="recurrent">470</string>
-    <string name="hint_optional">471</string>
-    <string name="maxcapacity">472</string>
-    <string name="blockseat">473</string>
-    <string name="hint_dress_code">474</string>
-    <string name="votingright">475</string>
-    <string name="suggestion_not_sync">476</string>
-    <string name="title_activity_delete_account">477</string>
-    <string name="delete_account_title">478</string>
-    <string name="delete_account_text1">479</string>
-    <string name="delete_account_text2">480</string>
-    <string name="delete_account_text3">481</string>
-    <string name="delete_account_button">482</string>
-    <string name="profile_not_found">483</string>
-    <string name="view_profile_email_label">484</string>
-    <string name="view_profile_dob_label">485</string>
-    <string name="Key_isImageUpdateNotification">486</string>
-    <string name="Key_eventId">487</string>
-    <string name="Key_fileUrl">488</string>
-    <string name="Key_thumbnail">489</string>
-    <string name="Key_filePath">490</string>
-    <string name="profile_phone_text">491</string>
-    <string name="atleast_one_participant">492</string>
-    <string name="max_no_of_going_exceed">493</string>
-    <string name="no_event_found">494</string>
-
-    <string name="tell_a_freind_content">495</string>
-    <string name="tell_a_freind_subject">496</string>
-    <string name="tell_a_freind_content_email">497</string>
-    <string name="upcoming_event_notification_validation">498</string>
-    <string name="endDate_currentDate">499</string>
-    <string name="hint_hrs_before">500</string>
-    <string name="faq_text">501</string>
-    <string name="facebook_link">502</string>
-    <string name="enter_location">503</string>
-    <string name="wallpaper_choose">504</string>
-    <string name="wallpaper_remove">505</string>
-    <string name="wallpaper_title">506</string>
-    <string name="waiting">507</string>
-    <string name="rsvp_limit">508</string>
-    <string name="suggestion_navigator">509</string>
-    <string name="suggestion_delete">510</string>
-    <string name="suggestion_dialog_title">511</string>
-    <string name="action_chat_inpast">512</string>
-    <string name="held_on">513</string>
-    <string name="guest_invited">514</string>
-    <string name="congrats_text">515</string>
-    <!-- <string name="sharing_string1">517</string>
-     <string name="sharing_string2">516</string>-->
-    <!--<string name="sharing_string1">517</string>-->
-    <string name="sharing_string1">517</string>
-
-    <string name="sharing_string2">516</string>
-
-    <string name="title_activity_system_status">518</string>
-    <string name="text_error1">519</string>
-    <string name="text_error2">520</string>
-    <string name="text_error3">521</string>
-    <string name="text_last_sync">522</string>
-    <string name="text_special_char_restriction">523</string>
-    <string name="delete_group">524</string>
-    <string name="delete_group_message">525</string>
-    <string name="del_suggestion">526</string>
-    <string name="del_suggestion_msg">527</string>
-    <string name="upload_more_pics">528</string>
-    <string name="upload_more_vid">529</string>
-    <string name="copy_text">530</string>
-    <string name="copy_selected_text">531</string>
-    <string name="copy_text_toast">532</string>
-    <string name="version">533</string>
-
-    <!-- Round 3 strings-->
-    <string name="chat_disabled_msg_server">534</string>
-    <string name="cancel_event">535</string>
-    <string name="currency_selector_header">536</string>
-    <string-array name="predefined_currency">
-        <item>537</item>
-        <item>538</item>
-    </string-array>
-    <string name="cancel_event_message">539</string>
-    <string name="rsvp_screenl_label">540</string>
-    <string name="rsvp_screenl_label_ask">541</string>
-
-    <string name="days_remains">542</string>
-    <string name="hours_before">543</string>
-    <string name="font_size">544</string>
-    <string name="font_large">545</string>
-    <string name="font_small">546</string>
-    <string name="font_medium">547</string>
-    <string name="change_number_text">548</string>
-    <string name="max_capacity_label">549</string>
-
-    <string name="sunday_label">550</string>
-    <string name="monday_label">551</string>
-    <string name="tuesday_label">552</string>
-    <string name="wednessday_label">553</string>
-    <string name="thursday_label">554</string>
-    <string name="firday_label">555</string>
-    <string name="saturday_label">556</string>
-
-    <string name="lastdate_to_confirm_error">557</string>
-    <string name="date_lastdat_current">558</string>
-    <string name="lastday_in_days_label">559</string>
-    <string name="lastday_in_one_day_label">560</string>
-    <string name="lastday_in_hrs_label">561</string>
-    <string name="lastday_in_min_label">562</string>
-    <string name="lastday_in_one_hrs_label">563</string>
-    <string name="rsvp_passed">564</string>
-
-    <string name="create_group_text_change">565</string>
-    <string name="setting_image">566</string>
-    <string name="setting_video">567</string>
-    <string name="setting_all">568</string>
-    <string name="setting_no">569</string>
-    <string name="event_past_lable">570</string>
-    <string name="event_past_attended_key">571</string>
-    <string name="event_past_attended_key_msg_enable">572</string>
-    <string name="event_past_cancel_key">573</string>
-    <string name="event_past_cancel_key_msg_enable">574</string>
-    <string name="event_past_cancel_key_msg_disable">575</string>
-    <string name="rsvp_status_msg">576</string>
-    <string name="msg_file_cannot_process">577</string>
-    <string name="loading_msg">578</string>
-    <string name="gender_male">579</string>
-    <string name="gender_female">580</string>
-    <string name="rsvp_in_waiting">581</string>
-    <string name="share_using">582</string>
-    <string name="event_add_calender_title">583</string>
-    <string name="event_add_calender_key_enable">584</string>
-    <string name="event_add_calender_key_disable">585</string>
-    <string name="load_more_btn_text">586</string>
-    <string name="event_not_synced_text">587</string>
-    <string name="file_limit_reached">588</string>
-    <string name="msg_delivery_fail">589</string>
-    <string name="msg_guest_lst_hide">590</string>
-
-    <string name="delete_text">591</string>
-    <string name="share_text">592</string>
-    <string name="forward_text">593</string>
-    <string name="share_img">594</string>
-    <string name="share_vid">595</string>
-    <string name="file_deleted">596</string>
-    <string name="files_deleted">597</string>
-    <string name="delete_past_files_title">598</string>
-    <string name="delete_past_files_message">599</string>
-    <string name="noti_image">600</string>
-    <string name="noti_vid">601</string>
-
-    <string name="recurrent_msg">602</string>
-    <string name="recurrent_modify_before">603</string>
-    <string name="recurrent_yes_label">604</string>
-    <string name="recurrent_no_label">605</string>
-    <string name="recurrent_success">606</string>
-    <string name="recurrent_fails">607</string>
-
-
-    <!--Release 21 Strings-->
-    <string name="discard_edit_event_changes">608</string>
-    <string name="server_status_normal">609</string>
-    <string name="rsvp_activity">610</string>
-    <string name="del_account_phone_number_error">611</string>
-    <string name="faq_link">612</string>
-    <string name="legal_notice_link">613</string>
-    <string name="privacy_policy_link">614</string>
-    <string name="assign_admin_loading_msg">615</string>
-    <string name="no_invitee">616</string>
-    <string name="last_date_to_confirm_1_hr_error">617</string>
-
-    <string name="media_download_problem">618</string>
-    <string name="voting_closed_text">619</string>
-    <string name="no_suggestion_selected">620</string>
-    <string name="voting_closed">621</string>
-    <string name="imported_successfully">622</string>
-    <string name="time_lastdat_current">623</string>
-
-    <string name="warning_forward_chat_cancel">624</string>
-    <string name="warning_forward_chat_disable">625</string>
-    <plurals name="contact_selected">
-        <item quantity="one">626</item>
-        <item quantity="other">627</item>
-    </plurals>
-    <string name="no_event_text">628</string>
-    <string name="no_event_create_event">629</string>
-    <string name="action_contact_admin">630</string>
-    <string name="title_activity_see_you_all_news">631</string>
-
-    <string name="activity_see_you_all_news_action_bar_title">632</string>
-    <string name="no_broadcast_news">633</string>
-
-    <string name="delete_broadcast_notification_title">634</string>
-    <string name="delete_broadcast_notification_msg">635</string>
-    <string name="profile_status_hint">636</string>
-    <string name="sharing_files_null">637</string>
-    <string name="file_limit_reached_share">638</string>
-    <string name="past_card_date">639</string>
-    <string name="change_profile_pic_label">640</string>
-    <string name="current_number_not_valid">641</string>
-    <string name="event_past_attended_key_msg_disable">642</string>
-    <string name="public_label">643</string>
-    <string name="private_label">644</string>
-    <string name="not_defined">645</string>
-    <string name="other_gender_label">646</string>
-    <string name="other_gender_hint">647</string>
-    <string name="profile_privacy_text">648</string>
-    <string name="error_text">649</string>
-    <string name="event_cost_error">650</string>
-    <string name="profile_empty_status_text">651</string>
-
-    <string name="profile_empty_name_text">652</string>
-    <string name="profile_empty_email_text">653</string>
-    <string name="profile_empty_dob_text">654</string>
-    <string name="profile_empty_location_text">655</string>
-
-    <string name="reset_stats_dialogue_title">656</string>
-    <string name="reset_stats_dialogue_msg">657</string>
-    <string name="reset_stats_dialogue_yes">658</string>
-    <string name="reset_stats_dialogue_no">659</string>
-    <string name="and">660</string>
-
-    <string name="default_profile_status">Organizing my hangouts with SeeYouAll</string>
-</resources>
+/* 
+  Localizable.strings
+  SeeYouAll
+
+  Created by Anuj on 18/09/15.
+  Copyright (c) 2015 Kiwitech. All rights reserved.
+*/
+"Manage Guests" = "###303###";
+"hs" = "###661###";
+"No Invitee" = "###616###";
+"Unable to detect network. Please check connectivity and try again." = "###170###";
+"SeeYouAll" = "###1###";
+"SeeYouAll News" = "###631###";
+"You're invited to a new event." = "###662###";
+"Cancel" = "###287###";
+"No" = "###178###";
+"Yes" = "###177###";
+"OK" = "###13###";
+"Contact Admin" = "###630###";
+"OK_Login" = "###219###";
+"Verify your phone number and check if \n you already have invites from your \n friends." = "###663###";
+"We’ll send you a sms with your verification code." = "###664###";
+"Sorry! you can't mute/unmute as your Alert Setting is OFF in settings" = "###665###";
+"Not defined" = "###310###";
+"Not Defined" = "###311###";
+"Ok" = "###231###";
+"Sign Up Failed" = "###666###";
+"Resend Code" = "###155###";
+"Device registration failed, we'll keep trying!!" = "###667###";
+"User Confirmation Failed" = "###668###";
+"User profile could not be fetched." = "###669###";
+"Data can not be saved in database." = "###670###";
+"Error loading countries." = "###671###";
+"Error importing profile from Facebook." = "###672###";
+"Request cancelled!" = "###673###";
+"Error updating profile on server." = "###674###";
+"Resend Code failed" = "###675###";
+"Error loading" = "###676###";
+"Terms of Use" = "###677###";
+"Privacy Policy" = "###678###";
+"PrivacyPolicy" = "###679###";
+"Fill contact name." = "###680###";
+"First name required" = "###681###";
+"Phone Number required" = "###682###";
+"Please enter valid Phone Number" = "###683###";
+"Device could not be registered on server, please try some time later." = "###684###";
+"No Location Service" = "###685###";
+"Could not find location" = "###686###";
+"No location to be saved" = "###687###";
+"Please enter a Title" = "###688###";
+"Add atleast one participant!" = "###492###";
+
+"Invitee should be a SeeYouAll user." = "###689###";
+"RSVP" = "###540###";
+"Thanks for the rsvp, your request has been submitted. Currently you are in waiting list. We'll notify you soon." = "###690###";
+"Delete Account" = "###450###";
+"Are you sure you want to delete your account? This can't be undone." = "###691###";
+"Phone number not matched!" = "###611###";
+"Not a SeeYouAll user." = "###692###";
+"Sorry!" = "###693###";
+"Enter key will add new line" = "###84###";
+"Enter key send message" = "###85###";
+"Remove Invitee" = "###431###";
+"Are you really want to remove from the guest list all the guests with RSVP MAYBE." = "###694###";
+"Are you really want to remove from the guest list all the guests with RSVP NOT RESPONDED." = "###695###";
+"Are you really want to remove from the guest list all the guests with RSVP NOT GOING." = "###696###";
+"Add to contacts" = "###451###";
+"Add" = "###127###";
+"Do you want to cancel your changes?" = "###608###";
+"Do you want to discard this event?" = "###697###";
+
+
+"No Guests" = "###698###";
+"Guest List" = "###274###";
+"Invite contacts" = "###189###";
+"Advance options" = "###188###";
+"Guest Invited:" = "###514###";
+"Going" = "###260###";
+"GOING" = "###331###";
+"Maybe" = "###261###";
+"MaybeForChat" = "###332###";
+
+"GOINGCAPS" = "###699###";
+"WaitingCAPS" = "###453###";
+"MAYBECAPSCAPS" = "###700###";
+"NOT GOINGCAPS" = "###262###";
+"NOT RESPONDEDCAPS" = "###263###";
+
+"May be" = "###701###";
+"Event already started, can't perform RSVP now." = "###702###";
+
+"Event has been cancelled, can't perform RSVP." = "###703###";
+
+"Waiting" = "###507###";
+"MAYBE" = "###704###";
+"Not going" = "###333###";
+"NOT GOING" = "###705###";
+"Not Responded" = "###264###";
+"NOT RESPONDED" = "###706###";
+"Are you sure you want to cancel event" = "###707###";
+"Cancellation cannot be undone." = "###708###";
+"Please wait until this suggestion is synced with server." = "###709###";
+"Please wait until this event is synced with server." = "###710###";
+"About" = "###116###";
+"FAQ" = "###117###";
+"System Status" = "###118###";
+"System status" = "###518###";
+
+"Report a problem" = "###119###";
+"Privacy" = "###78###";
+"Change number" = "###79###";
+"Change Number" = "###375###";
+
+"Network usage" = "###80###";
+"Network Usage" = "###397###";
+
+"Payment" = "###81###";
+"Delete my account" = "###82###";
+"Tell a friend" = "###91###";
+"Pay to a friend" = "###711###";
+"Show all contacts" = "###93###";
+"Contacts" = "###19###";
+"Contact" = "###370###";
+
+"Help" = "###71###";
+"Profile" = "###37###";
+"Account" = "###73###";
+"Event Settings" = "###75###";
+"Event settings" = "###369###";
+
+"Hey, \nI just downloaded SeeYouAll event management event app," = "###712###";
+
+"Notifications" = "###76###";
+"Settings" = "###4###";
+"<html><body>Check out <a href=\"seeYouAllApp://\">SeeYouAll App</a> for sharing events.</body></html>" = "###713###";
+"Check out SeeYouAll App for sharing events." = "###714###";
+"Changing your number will migrate your account info, Event and Settings.\n\nBefore proceeding, please confirm that you are able to receive SMS or calls at your new number.\n\nIn order to change a phone number using a new device, first introduce the new SIM in the new device, then in the old device follow the change number procedure, validate the new phone number, install the app in the new device, open it and verify the new phone number in this new device." = "###715###";
+"Please enter your New country code and phone number." = "###436###";
+"Please enter your Current country code and phone number." = "###716###";
+
+"Please enter your old country code and phone number." = "###435###";
+"Please enter your new country code and phone number." = "###717###";
+
+"Current phone number" = "###437###";
+"current phone number" = "###718###";
+
+"Group" = "###719###";
+"updated Successfully." = "###720###";
+"created Successfully." = "###721###";
+
+"New phone number" = "###438###";
+"new phone number" = "###722###";
+"Done" = "###175###";
+"DoneListo" = "###723###";
+"Country" = "###724###";
+"Number has been changed successfully." = "###725###";
+"No Network Connection" = "###726###";
+"IN DEVELOPMENT!!!" = "###727###";
+"Are you sure you want change the admin of this event?" = "###728###";
+"Feedback/Question about SeeYouAll" = "###322###";
+"Please configure email account in device 'Settings'." = "###729###";
+"Profile updated successfully" = "###730###";
+"Success!" = "###731###";
+"This app requires access to your contacts to function properly. Please visit to the \"Privacy\" section in the iPhone Settings app." = "###732###";
+"New Event" = "###36###";
+"Enter Code" = "###68###";
+"Verification code has\nbeen sent to" = "###733###";
+"Submit" = "###69###";
+"Please provide verification token.\n" = "###734###";
+"Event is cancelled." = "###735###";
+"Admin has currently disabled the chat." = "###736###";
+"Load More" = "###586###";
+"Admin: " = "###737###";
+"Admin" = "###348###";
+"RSVP:" = "###227###";
+"Support Info" = "###738###";
+"Model:" = "###739###";
+"Version:" = "###740###";
+
+"App Version:" = "###741###";
+"Contacts Updated" = "###407###";
+
+"Please select a Font size" = "###742###";
+"Take Photo/Video" = "###743###";
+"Existing Photo/Video" = "###744###";
+"Location" = "###62###";
+"Location_Title" = "###173###";
+"Contact" = "###379###";
+"Edit Group" = "###28###";
+"Create Group" = "###27###";
+"Participant:" = "###745###";
+"Select Participants..." = "###746###";
+"Remove Photo" = "###747###";
+"Start" = "###748###";
+"hr" = "###749###";
+"End" = "###750###";
+"No fixed time" = "###751###";
+"No Suggestions" = "###752###";
+"Created by Admin" = "###753###";
+"Suggested by" = "###347###";
+"Suggested by You" = "###754###";
+"A" = "###755###";
+"Error loading file!" = "###756###";
+"Congrats!! Invites were sent!!\nYou can also tell your guests about the\nevent via other apps!!" = "###757###";
+"day" = "###758###";
+"Congrats!! Invites were sent!! Click on any guests to share the invite via other apps!!" = "###759###";
+
+
+"The Person" = "###760###";
+"with phone number" = "###761###";
+"has invited you to the event" = "###762###";
+"Download here the SeeYouAll app to reply your friend if you are going:" = "###763###";
+"Loading..." = "###764###";
+"This app does not have access to your photos or videos. You can enable access in Privacy Settings." = "###765###";
+"Access Denied" = "###766###";
+"Album Error:" = "###767###";
+"Error" = "###768###";
+"Select an Album" = "###769###";
+"Pick Photo" = "###770###";
+"Pick Photos" = "###771###";
+"Only" = "###772###";
+"Remove" = "###773###";
+"photos please!" = "###774###";
+"You can only send" = "###775###";
+"photos at a time." = "###776###";
+
+"video at a time." = "###777###";
+
+
+"Starts" = "###778###";
+"Ends" = "###779###";
+"Choose Default Icon" = "###780###";
+"Cost" = "###273###";
+"Dress Code" = "###230###";
+"Description" = "###275###";
+"per person" = "###781###";
+"No Description" = "###355###";
+"Number of Guest" = "###782###";
+"Date & Time" = "###267###";
+"Check Availability" = "###277###";
+"Share Event" = "###282###";
+"View Guest List" = "###279###";
+"Event you are viewing has been deleted." = "###783###";
+"No SeeYouAll Invitee" = "###784###";
+"Invitee List" = "###314###";
+"Enter Location" = "###785###";
+"Fetching location..." = "###786###";
+"Last Date of Confirmation" = "###787###";
+"Last date of confirmation: " = "###788###";
+"Cost (optional)" = "###193###";
+"Maximum capacity (optional)" = "###196###";
+"Block seats for your guests (optional)" = "###789###";
+"Dresscode (optional)" = "###790###";
+"Description (optional)" = "###180###";
+"Start Date (optional)" = "###791###";
+"Start Time" = "###184###";
+"End Date (optional)" = "###792###";
+"End Time" = "###187###";
+" Reset Event Date and Time" = "###793###";
+"Deadline to confirm" = "###794###";
+"Confirm by:" = "###795###";
+"Delete" = "###136###";
+"Navigate" = "###509###";
+"Select Option" = "###796###";
+"Leave Event" = "###299###";
+"Unmute" = "###297###";
+"Mute" = "###296###";
+"View Event Details" = "###288###";
+"View & Edit Event Details" = "###290###";
+
+"Delete Event" = "###325###";
+"Cancel Event" = "###291###";
+"Send as calender" = "###797###";
+"Assign Someone As Admin" = "###294###";
+"Are you sure you want to leave event" = "###798###";
+"You do not have internet connection" = "###799###";
+"Server is operating normally" = "###609###";
+
+"not going" = "###800###";
+"Small" = "###546###";
+"Medium" = "###547###";
+"Large" = "###545###";
+"Font size" = "###544###";
+"Messages sent:" = "###100###";
+"messages" = "###109###";
+"Messages received:" = "###101###";
+"Media bytes sent:" = "###102###";
+"Media bytes received:" = "###103###";
+"Message bytes sent:" = "###104###";
+"Message bytes received:" = "###105###";
+"Total bytes sent:" = "###106###";
+"Total bytes received:" = "###107###";
+"Error performing this action." = "###801###";
+"Are you sure you want to clear statistics?" = "###802###";
+"All Media" = "###98###";
+"All media" = "###568###";
+
+"No media" = "###96###";
+
+"No Media" = "###569###";
+"Images" = "###566###";
+"Audio" = "###378###";
+"Video" = "###382###";
+", Audio" = "###803###";
+", Video" = "###804###";
+"Number of Guests Bringing" = "###334###";
+"0 Adult" = "###805###";
+"0 Child" = "###806###";
+
+
+"0 Adults" = "###455###";
+"0 Kids" = "###454###";
+
+"I have just invited you to a SeeYouAll event called" = "###807###";
+"download here the SeeYouAll app and join us!" = "###808###";
+
+"Remove all MAYBE" = "###385###";
+"Remove all NOT GOING" = "###387###";
+"Remove all NOT RESPONDED" = "###388###";
+"SeeYouAll Application" = "###121###";
+"© 2016 SeeYouAll\nAll rights reserved." = "###809###";
+"Version" = "###533###";
+"ex: Ana's Birthday" = "###810###";
+"Add Details Now" = "###207###";
+"Add Details Later" = "###208###";
+"optional" = "###471###";
+"DressCode(optional)" = "###811###";
+"Business Formal" = "###142###";
+"Business Casual" = "###143###";
+"Sport Casual" = "###144###";
+"Costume" = "###145###";
+"No Dress Code" = "###141###";
+"Change Event Icon\n" = "###812###";
+"Add Event Icon\n" = "###813###";
+"End date can't be before current time\n" = "###814###";
+"End time can't be before current time\n" = "###815###";
+"for rsvp" = "###816###";
+
+"Please enter a Title for the event.\n" = "###817###";
+"Please fill start date/time as last date of confirmation is not blank." = "###818###";
+"Invitees must at least have 24 hours to confirm." = "###819###";
+"Reserved seats can not be more than max seats" = "###820###";
+"Dismiss" = "###821###";
+"Take a new photo" = "###822###";
+"Choose from existing" = "###823###";
+"Existing icon" = "###824###";
+"Search" = "###825###";
+"Update invites" = "###206###";
+"Create Event & Send Invites" = "###205###";
+"No contacts yet" = "###826###";
+"No result found" = "###7###";
+"You haven't created any group yet. Create your own groups by using create group button." = "###827###";
+"You haven't created any group yet." = "###828###";
+
+"Create your own groups\n" = "###829###";
+"You haven't created any group yet. Create \n your own groups by using create group \n button." = "###830###";
+
+
+
+
+"Reset statistics" = "###108###";
+"Invalid country" = "###831###";
+"Please fill country code.\n" = "###832###";
+"Please provide a valid phone number.\n" = "###833###";
+
+"Please Enter Phone Number\n" = "###834###";
+"Current Phone Number is invalid\n" = "###835###";
+"New phone number is not a valid phone number\n" = "###836###";
+
+
+"Number is not valid for this country code.\n" = "###837###";
+"Code sent successfully." = "###838###";
+"Event you are editing has been deleted." = "###839###";
+"CANCELLED" = "###452###";
+"No upcoming events" = "###840###";
+"No Past Events" = "###253###";
+"Are you sure you want to delete event" = "###841###";
+"Media auto-download" = "###86###";
+"Take Photo" = "###842###";
+"Existing Photo" = "###843###";
+"Not Available" = "###456###";
+"Male" = "###53###";
+"Female" = "###54###";
+"Search for a map location" = "###844###";
+"Would you like to continue with your Facebook profile?" = "###29###";
+"> Share your events with friends" = "###845###";
+"> Customize your experience" = "###846###";
+"> Publish tour events" = "###847###";
+"> SeeYouAll will never post on Facebook" = "###848###";
+" without your permission." = "###849###";
+"> Personalize your experience" = "###850###";
+"Import Profile from Facebook" = "###851###";
+"No Thanks" = "###852###";
+"person" = "###853###";
+"No, Thanks Continue"  = "No, Thanks Continue";
+"Number" = "###122###";
+"Validate phone number" = "###855###";
+"Authenticate" = "###856###";
+"By clicking on OK, you agree to the #<ts>Terms of Use# and# you acknowledge you have read the #<pp>Privacy Policy#" = "###857###";
+"By clicking on OK, you agree to the #<ts>Terms of Use# and you# acknowledge you have read the #<pp>Privacy Policy#" = "###858###";
+"By clicking on OK, you agree to the #<ts>Terms of Use# and you acknowledge you have read the #<pp>Privacy Policy#" = "###859###";
+"By clicking on OK, you agree to the #<ts>Terms of Use# and# you# acknowledge# you have read the #<pp>Privacy Policy#" = "###860###";
+"Please fill the country code.\n" = "###861###";
+"Notification tone" = "###112###";
+"Wifi" = "###862###";
+
+
+"Mobile data" = "###863###";
+"When using mobile data" = "###95###";
+
+
+"Name" = "###48###";
+"Status" = "###49###";
+"Email" = "###50###";
+"Date Of Birth" = "###51###";
+"Import from Facebook" = "###55###";
+"Connect with Facebook" = "###864###";
+"My Profile" = "###865###";
+"Change Picture\n" = "###866###";
+"Change profile pic\n" = "###867###";
+"Add Picture\n" = "###868###";
+"Add profile pic\n" = "###869###";
+"Other gender" = "###647###";
+"Other" = "###646###";
+"Only you can view this info." = "###648###";
+"You can't access the paid event now. Please wait for the updated version." = "###870###";
+
+"Chat Copied" = "###532###";
+"Contact saved" = "###871###";
+"No content to save, contact discarded" = "###872###";
+
+"Confirm in" = "###873###";
+"Please enter valid email address.\n" = "###874###";
+"Please enter a valid name.\n" = "###875###";
+"You are not connected to internet.\n" = "###876###";
+"Request time out.\n" = "###877###";
+"Secure connection failed.\n" = "###878###";
+"Continue" = "###12###";
+"Manage" = "###879###";
+"Date:" = "###639###";
+"Your social life" = "###43###";
+
+"Ex: Planning my hangouts with SeeYouAll" = "###636###";
+
+"Organize your hangouts, parties, \n matches and events. Fast & easy!" = "###880###";
+"No fuss" = "###881###";
+"Always up to date" = "###882###";
+"All your plans in one place. Every \n detail always updated." = "###883###";
+"Find out who’s coming, chat with \n other guests and share photos after \n the hangout." = "###884###";
+"quickly and efficiently\n your social life" = "###885###";
+"In One place you'll\norganize events and find\nall your plans" = "###886###";
+"Create chats for each\n plan, updated events\nshare photo" = "###887###";
+"Create chats for each plan, updated events share photo\" for Create chats for each plan, update events and share pictures" = "###888###";
+"Sum of Adult and Child count can't be more than" = "###889###";
+"Maximum capacity can not be more than" = "###890###";
+"Please join us" = "###891###";
+"Event Title" = "###892###";
+"Event Description" = "###893###";
+"Event Start Time" = "###894###";
+"Event End Time" = "###895###";
+"Event Location" = "###896###";
+"Special character are not allowed in title" = "###897###";
+"Past" = "###226###";
+"years" = "###898###";
+"year" = "###899###";
+"days" = "###900###";
+"day" = "###901###";
+"In" = "###902###";
+"Event" = "###903###";
+"will start in" = "###904###";
+"hour" = "###905###";
+"hours" = "###906###";
+"Alerts" = "###907###";
+
+"Alert" = "###111###";
+
+"Upcoming Event" = "###113###";
+"Select hours to notify before an event starts" = "###115###";
+"Hours Before" = "###543###";
+"1-72 hr before an event starts" = "###500###";
+"Can only input 1 to 72 hrs!" = "###908###";
+"Upcoming" = "###225###";
+
+"Organizing my hangouts with SeeYouAll" = "###909###";
+
+"Events" = "###2###";
+"min" = "###910###";
+"NOW" = "###240###";
+"Title" = "###460###";
+"(check your availability)" = "###911###";
+"All Day" = "###182###";
+"Calendar" = "###912###";
+//"Add details later" = "###463###";
+"Add dates, location and more" = "###462###";
+"Ask for number of guests bringing" = "###192###";
+"Limit RSVP to Yes/No" = "###469###";
+"Maximum capacity" = "###472###";
+"Maximum Capacity" = "###913###";
+
+
+"Dresscode" = "###914###";
+"Allowing Voting" = "###198###";
+"Date and Time (When)" = "###201###";
+"Location (Where)" = "###202###";
+"Description (What to do)" = "###203###";
+"Chat" = "###200###";
+"Hide guest list" = "###199###";
+"Edit Event" = "###278###";
+"OR" = "###915###";
+"Enter is send" = "###83###";
+"Enter key will send your message" = "###916###";
+"Font size for conversation screen" = "###89###";
+"Wallpaper" = "###90###";
+
+"Show not attended events" = "###571###";
+"Will not show you not attended events" = "###642###";
+"Will also show you not attended events" = "###572###";
+
+"Shows events you didn't attend" = "###917###";
+"Show cancelled events" = "###573###";
+ "Will also show you cancelled events" = "###574###";
+"Will not show you cancelled events" = "###575###";
+"FAQ" = "###374###";
+"Videos" = "###567###";
+"When connected on Wi-Fi" = "###97###";
+"Phone Number" = "###17###";
+"Date of birth" = "###485###";
+"Share Location" = "###918###";
+"Gender" = "###52###";
+"Deleting Your Account Will:" = "###478###";
+
+"Delete your account from SeeYouAll" = "###479###";
+"Erase your events history" = "###480###";
+"Confirm your country code and enter your phone number to delete your account." = "###481###";
+"Select Participants" = "###919###";
+"Groups" = "###20###";
+"Group Name" = "###168###";
+"Add Group Icon" = "###165###";
+"Change Group Icon" = "###162###";
+"You have been added" = "###920###";
+"You have left" = "###921###";
+"You have been removed" = "###922###";
+"Clear" = "###923###";
+"Guest count can not be added without RSVP" = "###924###";
+"Fill Start Date/Time first" = "###925###";
+"Last Date to Confirm can't be selected" = "###926###";
+"Last date to confirm can't be less than 1 hr before start date.\n" = "###927###";
+
+"Save Event" = "###316###";
+"Please add contact number." = "###928###";
+"Last Date to confirm is not valid!" = "###211###";
+
+
+"are you going?" = "###541###";
+"Edit Date & Time" = "###367###";
+"Event description suggestion has been locked." = "###929###";
+"Event time suggestion has been locked." = "###930###";
+"Event location suggestion has been locked." = "###931###";
+"Event is cancelled." = "###932###";
+"is cancelled." = "###933###";
+"Event Cancelled" = "###934###";
+"Please choose an option" = "###935###";
+"Event image has been changed" = "###936###";
+"Event title has been updated to" = "###937###";
+"Event admin changed to" = "###938###";
+
+"Event admin has been changed" = "###939###";
+
+
+"Event start date changed to" = "###940###";
+"Event end date changed to" = "###941###";
+"Event start time changed to" = "###942###";
+"Event end time changed to" = "###943###";
+"Event last date to confirm changed to" = "###944###";
+"Bringing guests is enabled" = "###945###";
+"Bringing guest is disabled" = "###946###";
+"Event description has been updated" = "###947###";
+"RSVP for kids or adults is enabled" = "###948###";
+"RSVP for kids or adults is disabled" = "###949###";
+"Event rsvp limit set to enabled" = "###950###";
+"Event rsvp limit set to disbaled" = "###951###";
+"Event maximum capacity limit set to" = "###952###";
+"Event dress code changed to" = "###953###";
+"Event cost decided as" = "###954###";
+"Voting is enabled" = "###955###";
+"Voting is disabled" = "###956###";
+"Description suggestion is enabled" = "###957###";
+"Description suggestion is disabled" = "###958###";
+"Location suggestion is enabled" = "###959###";
+"Location suggestion is disabled" = "###960###";
+"Time & date suggestion is enabled" = "###961###";
+"Time & date suggestion is disabled" = "###962###";
+"Chatting is disabled" = "###963###";
+"Chatting is enabled" = "###964###";
+"Event location has been updated" = "###965###";
+"Event location has been changed to" = "###966###";
+"Guest list hide by admin" = "###967###";
+"Guest list shown by admin" = "###968###";
+
+"The guest list is disabled by the administrator" = "###969###";
+
+"Event time has been updated" = "###970###";
+"Event all day enabled" = "###971###";
+"Event all day disabled" = "###972###";
+"You are going" = "###973###";
+"You may be going" = "###974###";
+"You are not going" = "###975###";
+"is going" = "###976###";
+"may be going" = "###977###";
+"is not going" = "###978###";
+"You are going with" = "###979###";
+
+
+"Event description has been updated." = "###980###";
+"About suggestion has been deleted." = "###981###";
+"Description suggestion has been added." = "###982###";
+"Event location has been updated." = "###983###";
+"Location suggestion has been deleted." = "###984###";
+"Location suggestion has been added." = "###985###";
+"Event time has been updated." = "###986###";
+"Time suggestion has been deleted." = "###987###";
+"Time suggestion has been added." = "###988###";
+"Add Contacts to Group" = "###989###";
+"Chat Settings" = "###990###";
+
+
+"Chat Setting" = "###87###";
+
+
+"Past Event Settings" = "###570###";
+"Past event settings" = "###991###";
+"Next" = "###204###";
+"Edit Description" = "###365###";
+"Write your suggestion" = "###349###";
+"Add suggestion" = "###344###";
+"Pick as a winner" = "###345###";
+"Adults" = "###335###";
+"Kids" = "###336###";
+"Adult" = "###992###";
+"Kid" = "###993###";
+"Send Invite" = "###317###";
+"A movie? Some beers? A match?\n Organize your own event and meet with your friends in two clicks." = "###994###";
+
+"Upload More" = "###995###";
+"No Media Shared" = "###996###";
+"minute" = "###997###";
+"minutes" = "###998###";
+"RSVP Deadline is about to pass!" = "###999###";
+"Event updatedd" = "###1000### %@ ###1300###";
+"has been added" = "###1001###";
+"has been left" = "###1002###";
+"has been removed" = "###1003###";
+"Time should be after current time\n" = "###1004###";
+
+
+"Jamaica" = "###1005###";
+"Saint Kitts & Nevis" = "###1006###";
+"Trinidad & Tobago" = "###1007###";
+"Saint Vincent & the Grenadines" = "###1008###";
+"Dominica" = "###1009###";
+"Saint Lucia" = "###1010###";
+"Sint Maarten" = "###1011###";
+"American Samoa" = "###1012###";
+"Guam" = "###1013###";
+"Northern Mariana Islands" = "###1014###";
+"Montserrat" = "###1015###";
+"Turks & Caicos Islands" = "###1016###";
+"Grenada" = "###1017###";
+"Bermuda" = "###1018###";
+"Cayman Islands" = "###1019###";
+"US Virgin Islands" = "###1020###";
+"British Virgin Islands" = "###1021###";
+"Antigua & Barbuda" = "###1022###";
+"Anguilla" = "###1023###";
+"Barbados" = "###1024###";
+"Bahamas" = "###1025###";
+"Uzbekistan" = "###1026###";
+"Kyrgyzstan" = "###1027###";
+"Georgia" = "###1028###";
+"Azerbaijan" = "###1029###";
+"Turkmenistan" = "###1030###";
+"Tajikistan" = "###1031###";
+"Nepal" = "###1032###";
+"Mongolia" = "###1033###";
+"Bhutan" = "###1034###";
+"Qatar" = "###1035###";
+"Bahrain" = "###1036###";
+"Israel" = "###1037###";
+"United Arab Emirates" = "###1038###";
+"Palestine" = "###1039###";
+"Oman" = "###1040###";
+"Yemen" = "###1041###";
+"Saudi Arabia" = "###1042###";
+"Kuwait" = "###1043###";
+"Iraq" = "###1044###";
+"Syrian Arab Republic" = "###1045###";
+"Jordan" = "###1046###";
+"Lebanon" = "###1047###";
+"Maldives" = "###1048###";
+"Taiwan" = "###1049###";
+"Bangladesh" = "###1050###";
+"Laos" = "###1051###";
+"Cambodia" = "###1052###";
+"Macau" = "###1053###";
+"Hong Kong" = "###1054###";
+"North Korea" = "###1055###";
+"Marshall Islands" = "###1056###";
+"Micronesia" = "###1057###";
+"Tokelau" = "###1058###";
+"French Polynesia" = "###1059###";
+"Tuvalu" = "###1060###";
+"New Caledonia" = "###1061###";
+"Kiribati" = "###1062###";
+"Samoa" = "###1063###";
+"Niue" = "###1064###";
+"Cook Islands" = "###1065###";
+"Wallis & Futuna" = "###1066###";
+"Palau" = "###1067###";
+"Fiji" = "###1068###";
+"Vanuatu" = "###1069###";
+"Solomon Islands" = "###1070###";
+"Tonga" = "###1071###";
+"Papua New Guinea" = "###1072###";
+"Nauru" = "###1073###";
+"Brunei Darussalam" = "###1074###";
+"Norfolk Island" = "###1075###";
+"Timor-Leste" = "###1076###";
+"Bonaire, Sint Eustatius & Saba" = "###1077###";
+"Curaçao" = "###1078###";
+"Uruguay" = "###1079###";
+"Suriname" = "###1080###";
+"Martinique" = "###1081###";
+"Paraguay" = "###1082###";
+"French Guiana" = "###1083###";
+"Ecuador" = "###1084###";
+"Guyana" = "###1085###";
+"Bolivia" = "###1086###";
+"Guadeloupe" = "###1087###";
+"Haiti" = "###1088###";
+"Saint Pierre & Miquelon" = "###1089###";
+"Panama" = "###1090###";
+"Costa Rica" = "###1091###";
+"Nicaragua" = "###1092###";
+"Honduras" = "###1093###";
+"El Salvador" = "###1094###";
+"Guatemala" = "###1095###";
+"Belize" = "###1096###";
+"Falkland Islands" = "###1097###";
+"Liechtenstein" = "###1098###";
+"Slovakia" = "###1099###";
+"Czech Republic" = "###1100###";
+"Macedonia" = "###1101###";
+"Bosnia & Herzegovina" = "###1102###";
+"Slovenia" = "###1103###";
+"Croatia" = "###1104###";
+"Montenegro" = "###1105###";
+"Serbia" = "###1106###";
+"Ukraine" = "###1107###";
+"San Marino" = "###1108###";
+"Monaco" = "###1109###";
+"Andorra" = "###1110###";
+"Belarus" = "###1111###";
+"Armenia" = "###1112###";
+"Moldova" = "###1113###";
+"Estonia" = "###1114###";
+"Latvia" = "###1115###";
+"Lithuania" = "###1116###";
+"Bulgaria" = "###1117###";
+"Finland" = "###1118###";
+"Cyprus" = "###1119###";
+"Malta" = "###1120###";
+"Albania" = "###1121###";
+"Iceland" = "###1122###";
+"Ireland" = "###1123###";
+"Luxembourg" = "###1124###";
+"Portugal" = "###1125###";
+"Gibraltar" = "###1126###";
+"Greenland" = "###1127###";
+"Faroe Islands" = "###1128###";
+"Aruba" = "###1129###";
+"Eritrea" = "###1130###";
+"Saint Helena" = "###1131###";
+"Comoros" = "###1132###";
+"Swaziland" = "###1133###";
+"Botswana" = "###1134###";
+"Lesotho" = "###1135###";
+"Malawi" = "###1136###";
+"Namibia" = "###1137###";
+"Zimbabwe" = "###1138###";
+"Réunion" = "###1139###";
+"Madagascar" = "###1140###";
+"Zambia" = "###1141###";
+"Mozambique" = "###1142###";
+"Burundi" = "###1143###";
+"Uganda" = "###1144###";
+"Tanzania" = "###1145###";
+"Kenya" = "###1146###";
+"Djibouti" = "###1147###";
+"Somalia" = "###1148###";
+"Ethiopia" = "###1149###";
+"Rwanda" = "###1150###";
+"Sudan" = "###1151###";
+"Seychelles" = "###1152###";
+"Saint Helena" = "###1153###";
+"Diego Garcia" = "###1154###";
+"Guinea-Bissau" = "###1155###";
+"Angola" = "###1156###";
+"Congo (Dem. Rep.)" = "###1157###";
+"Congo (Rep.)" = "###1158###";
+"Gabon" = "###1159###";
+"Equatorial Guinea" = "###1160###";
+"São Tomé & Príncipe" = "###1161###";
+"Cape Verde" = "###1162###";
+"Cameroon" = "###1163###";
+"Central African Rep." = "###1164###";
+"Chad" = "###1165###";
+"Nigeria" = "###1166###";
+"Ghana" = "###1167###";
+"Sierra Leone" = "###1168###";
+"Liberia" = "###1169###";
+"Mauritius" = "###1170###";
+"Benin" = "###1171###";
+"Togo" = "###1172###";
+"Niger" = "###1173###";
+"Burkina Faso" = "###1174###";
+"Côte d`Ivoire" = "###1175###";
+"Guinea" = "###1176###";
+"Mali" = "###1177###";
+"Mauritania" = "###1178###";
+"Senegal" = "###1179###";
+"Gambia" = "###1180###";
+"Libya" = "###1181###";
+"Tunisia" = "###1182###";
+"Algeria" = "###1183###";
+"Morocco" = "###1184###";
+"South Sudan" = "###1185###";
+"Iran" = "###1186###";
+"Myanmar" = "###1187###";
+"Sri Lanka" = "###1188###";
+"Afghanistan" = "###1189###";
+"Pakistan" = "###1190###";
+"India" = "###1191###";
+"Turkey" = "###1192###";
+"China" = "###1193###";
+"Vietnam" = "###1194###";
+"South Korea" = "###1195###";
+"Japan" = "###1196###";
+"Thailand" = "###1197###";
+"Singapore" = "###1198###";
+"New Zealand" = "###1199###";
+"Philippines" = "###1200###";
+"Indonesia" = "###1201###";
+"Australia" = "###1202###";
+"Malaysia" = "###1203###";
+"Venezuela" = "###1204###";
+"Colombia" = "###1205###";
+"Chile" = "###1206###";
+"Brazil" = "###1207###";
+"Argentina" = "###1208###";
+"Cuba" = "###1209###";
+"Mexico" = "###1210###";
+"Peru" = "###1211###";
+"Germany" = "###1212###";
+"Poland" = "###1213###";
+"Norway" = "###1214###";
+"Sweden" = "###1215###";
+"Denmark" = "###1216###";
+"United Kingdom" = "###1217###";
+"Austria" = "###1218###";
+"Y-land" = "###1219###";
+"Switzerland" = "###1220###";
+"Romania" = "###1221###";
+"Italy" = "###1222###";
+"Hungary" = "###1223###";
+"Spain" = "###1224###";
+"France" = "###1225###";
+"Belgium" = "###1226###";
+"Netherlands" = "###1227###";
+"Greece" = "###1228###";
+"South Africa" = "###1229###";
+"Egypt" = "###1230###";
+"Kazakhstan" = "###1231###";
+"Russian Federation" = "###1232###";
+"Puerto Rico" = "###1233###";
+"Dominican Rep." = "###1234###";
+"Canada" = "###1235###";
+"USA" = "###1236###";
+
+/////////////////////////////////////////////////////
+
+"youAdded" = "###1237### %@";
+"userAdded" = "%@: %@ ###1238###";
+"userLeft" = "%@: %@ ###1239###";
+"userRemoved" = "%@: %@ ###1240###";
+
+"chatText" = "%@: ###1241###";
+
+"chatMedia" = "%@: %@ ###1242###";
+
+"chatVideo" = "%@: %@ ###1243###";
+"chatImage" = "%@: %@ ###1244###";
+"chatAudio" = "%@: %@ ###1245###";
+
+
+
+
+"chatLocation" = "%@: %@ ###1246###";
+"chatContact" = "%@: %@ ###1247###";
+
+"eventUpdated" = "%@ ###1248###";
+"eventDeleted" = "%@ ###1249###";
+"eventCancelled" = "%@ ###1250###";
+"rsvpUpdatedGoing" = "%@: %@ ###1251###";
+"rsvpUpdatedNotGoing" = "%@: %@ ###1252###";
+"rsvpUpdatedMayBeGoing" = "%@: %@ ###1253###";
+"locationSuggestionEnabled" = "%@: ###1254###";
+"locationSuggestionDisabled" = "%@: ###1255###";
+"timeSuggestionEnabled" = "%@: ###1256###";
+"timeSuggestionDisabled" = "%@: ###1257###";
+"aboutSuggestionEnabled" = "%@: ###1258###";
+"aboutSuggestionDisabled" = "%@: ###1259###";
+"aboutLocked" = "%@: ###1260###";
+"locationLocked" = "%@: ###1261###";
+"timeLocked" = "%@: ###1262###";
+"allRsvpReset" = "%@: ###1263###";
+
+// need to test seat updated push in spanish_______//
+"seatUpdatedGoing" = "%@: %@ ###1264### %@ ###1301### %@ ###1302###";
+"seatUpdatedMayBeGoing" = "%@: %@ ###1265### %@ ###1303### %@ ###1304###";
+"seatUpdatedNotGoing" = "%@: %@ ###1266###";
+//__________________//
+"EventDescUpdated" = "%@: ###1267###";
+"EventTimeUpdated" = "%@: ###1268###";
+"EventLocUpdated" = "%@: ###1269###";
+
+
+"newDescSuggested" = "%@: ###1270###";
+"newTimeSuggested" = "%@: ###1271###";
+"newLocSuggested" = "%@: ###1272###";
+
+
+"http://www.seeyouall.com/#!privacy-police/czp6" = "###614###";
+
+"http://www.seeyouall.com/#!legalnotice/c10ft" = "###613###";
+
+"Save" = "###57###";
+"Recurrent Event" = "###470###";
+"Repeat" = "###289###";
+"TBD" = "###458###";
+"Do you want to repeat this event next week at the same day/time and with the same invitees?" = "###602###";
+"Modify before" = "###603###";
+
+"To get a personalized experience. It only takes a moment." = "###1273###";
+"Fill out your profile" = "###1274###";
+"Organize my hangouts with SeeYouAll" = "###1275###";
+"Add events to calendar" = "###583###";
+"Will add events to your calendar" = "###584###";
+"Will not add events to your calendar" = "###585###";
+
+"http://www.seeyouall.com/#!faqs-ingles/c1hvp" = "###612###";
+
+
+"No upcoming events!" = "###1276###";
+"Have a plan? Either way!! Create a SeeYouAll event and get together in a blast!!!" = "###1277###";
+"Create an event" = "###629###";
+"Remind Later" = "###390###";
+"Join me at this" = "###1278###";
+"SeeYouAll Event!" = "###1279###";
+"You" = "###285###";
+
+"you" = "###286###";
+"Sorry, this media file doesn't exist in your device." = "###1280###";
+"File size is too big!! Please choose a file smaller than 10 MB" = "###1281###";
+"Guest list hidden by admin" = "###1282###";
+
+"Media has been shared successfully with SeeYouAll app." = "###1283###";
+"Text has been shared successfully with SeeYouAll app." = "###1284###";
+"Guest list was updated" = "###1285###";
+
+"Remove wallpaper" = "###505###";
+"you maybe going" = "###1286###";
+"maybe going" = "###1287###";
+"Please select different status then previous one" = "###1288###";
+"current phone number is invalid" = "###641###";
+"phone number not matched" = "###1289###";
+"wait for event to sync" = "###1290###";
+"You did not change your RSVP" = "###330###";
+"You are in waiting." = "###1291###";
+"Last synced at:" = "###522###";
+"and" = "###660###";
+"Profile imported successfully." = "###1292###";
+"Type Message" = "###329###";
+"Go to SeeYouAll App" = "###1293###";
+"New Guests Invited:" = "###1294###";
+"Last Date to Confirm" = "191" ;
+"Please select suggestion first!" = "###620###";
+"Could not access the calendar because permission was not granted." = "###1295###";
+"Wait for vote to sync" = "###426###";
+"You have selected" = "###1296###";
+"Event updated successfully." = "###318###";
+"You cannot forward content here as event is cancelled." = "###624###";
+"Unable to lock this suggestion as this suggestion is not in sync with server yet. Please try after some time" = "###398###";
+
+"Network Connection is required!" = "###1297###";
+"No News Feed" = "###633###";
+
+"Day View" = "###1298###";
+"Countries" = "###243###";
+"Today" = "###248###";
+
+
+"Hello world!" = "###3###";
+"Register" = "###5###";
+"com.seeyouall" = "###6###";
+"Update" = "###8###";
+"Network not available, Please try after some time." = "###9###";
+"Authenticating user ..." = "###10###";
+"Registering..." = "###11###";
+"Ex: New York, NY" = "###655###";
+"Ex: Jul 24, 1985" = "###654###";
+"Email_Placeholder" = "###484###";
+"Full name" = "###652###";
+"No files selected" = "###637###";
+"Are you sure you want to delete this news?" = "###635###";
+"Voting has been closed!" = "###619###";
+"Media cannot be downloaded right now. Try again!" = "###618###";
+"Assigning admin, Please wait!" = "###615###";
+"Fails!! Please try another option!" = "###1299###";
+"New occurrence of the event created sucessfully!!" = "###606###";
+"RSVP closed" = "###564###";
+"Chat is not available yet" = "###534###";
+"Held on:" = "###513###";
+"View chat" = "###512###";
+"Options" = "###511###";
+"You cannot bring more than 50 guests!" = "###508###";
+"Set wallpaper" = "###506###";
+"Choose wallpaper form gallery" = "###504###";
+"No Event Found" = "###494###";
+"Seats has been booked, try lesser number of seats!" = "###493###";
+"Profile does not exist" = "###483###";
+"This suggestion is not synced with server yet! Vote after it gets synced with server" = "###476###";
