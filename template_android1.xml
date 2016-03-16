@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Notification Strings-->
+    <string name="event_image_changed">1305</string>
+    <string name="event_title_changed">1306</string>
+    <string name="event_admin_changed">1307</string>
+    <string name="event_start_date_changed">1308</string>
+    <string name="event_end_date_changed">1309</string>
+    <string name="event_start_time_changed">1310</string>
+    <string name="event_end_time_changed">1311</string>
+    <string name="event_lastdaytoconfirm_changed">1312</string>
+    <string name="event_last_date_changed">1316</string>
+    <string name="event_bringguest_enable">1313</string>
+    <string name="event_bringguest_disable">1314</string>
+    <string name="event_desc_changed">1315</string>
+    <string name="event_rsvp_enable">1317</string>
+    <string name="event_rsvp_disable">1318</string>
+    <string name="event_rsvplimit_enable">1319</string>
+    <string name="event_rsvplimit_disable">1320</string>
+    <string name="event_maxcapacity_set">1321</string>
+    <string name="event_dresscode_changed">1322</string>
+    <string name="event_cost_decided_as">1323</string>
+    <string name="event_voting_enable">1324</string>
+    <string name="event_voting_disable">1325</string>
+    <string name="event_desc_enable">1326</string>
+    <string name="event_desc_disable">1327</string>
+    <string name="event_location_enable">1328</string>
+    <string name="event_location_disable">1329</string>
+    <string name="event_time_suggestion_enable">1330</string>
+    <string name="event_time_suggestion_disable">1331</string>
+    <string name="event_chat_disable">1332</string>
+    <string name="event_chat_enable">1333</string>
+    <string name="event_location_changed">1334</string>
+    <string name="event_guestlist_hide">1335</string>
+    <string name="event_guestlist_show">1336</string>
+
+    <string name="rsvp_confirmed">1341</string>
+
+    <string name="event_rsvp_deadline">1337</string>
+    <string name="rsvp_reset">1338</string>
+    <string name="event_discarded">1339</string>
+    <string name="event_start">1340</string>
+
+
+    <string name="event_time_updated">1342</string>
+    <string name="event_all_day_enable">1343</string>
+    <string name="event_all_day_disable">1344</string>
+    <string name="event_desc_sugg_lock">1345</string>
+    <string name="event_loc_sugg_lock">1346</string>
+    <string name="event_time_sugg_lock">1347</string>
+    <string name="event_cancelled">1348</string>
+    <!--<string name="event_user_added">&#160;ha sido añadido</string>-->
+    <!--<string name="event_usr_left">&#160;abandonó el evento</string>-->
+    <string name="event_user_added">1349</string>
+    <string name="event_usr_left">1350</string>
+    <string name="event_usr_removed">1351</string>
+    <string name="event_is_not_going">1356</string>
+    <string name="event_loc_updated">1357</string>
+    <string name="event_adults">1358</string>
+    <string name="event_and">1359</string>
+    <string name="event_kids">1360</string>
+    <string name="event_adult">1361</string>
+    <string name="event_kid">1362</string>
+    <string name="event_are_going_with">1363</string>
+
+    <string name="noti_event_deleted">1365</string>
+    <string name="noti_events_deleted">1366</string>
+    <string name="noti_event_cancel">1367</string>
+    <string name="noti_events_cancel">1368</string>
+    <string name="event_creation_text">1369</string>
+    <string name="events_creation_text">1370</string>
+    <string name="noti_left">1371</string>
+    <string name="noti_removed">1372</string>
+    <string name="noti_is_going_to">1373</string>
+    <string name="noti_may_go_to">1374</string>
+    <string name="noti_not_going">1375</string>
+    <string name="noti_not_responded">1376</string>
+    <string name="noti_updations">1377</string>
+    <string name="noti_new_msgs">1378</string>
+    <string name="noti_new_msgs_from">1379</string>
+    <string name="noti_events">1380</string>
+    <string name="noti_loc">1381</string>
+    <string name="noti_cont">1382</string>
+    <string name="event_is_going_with">1364</string>
+
+    <!--to correct-->
+    <string name="event_are_going">1352</string>
+    <string name="event_is_going">1353</string>
+    <string name="event_maybe_going">1354</string>
+    <string name="event_are_not_going">1355</string>
+    <string name="seat_list">1383</string>
+    <string name="description_suggestion_added">1384</string>
+    <string name="location_suggestion_added">1385</string>
+    <string name="date_time_suggestion_added">1386</string>
+
+    <string name="event_admin_changed_wihout_name">1387</string>
+
+    <!--Release 21 Strings-->
+</resources>
